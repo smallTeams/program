@@ -5,3 +5,6 @@ jQuery(".slide .slideBox").slide({
     interTime:5000,
     delayTime:700
 });
+$(".navbar-nav li").hover(function(){
+	
+});
