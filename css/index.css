@@ -81,6 +81,19 @@
     margin-left: 90px;
     margin-right: 50px;
 }
+.character dt{
+    -webkit-transition: -webkit-transform 0.5s ease-out;
+    -moz-transition: -moz-transform 0.5s ease-out;
+    -o-transition: -o-transform 0.5s ease-out;
+    -ms-transition: -ms-transform 0.5s ease-out;
+}
+.character dt:hover{
+    -webkit-transform: rotateZ(360deg);
+    -moz-transform: rotateZ(360deg);
+    -o-transform: rotateZ(360deg);
+    -ms-transform: rotateZ(360deg);
+    transform: rotateZ(360deg);
+}
 .character dd{
     margin-left: 20px;
     margin-top: 30px;
