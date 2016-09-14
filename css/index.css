@@ -308,3 +308,6 @@
     line-height: 36px;
     height: 36px;
 }
+.message-con2 .list dl dt{
+    width: 320px;
+}

@@ -9,91 +9,9 @@
 </head>
 <body>
 	<div class="wrap">
-		<style>
-		.header .wel{line-height: 40px;}
-		.header .tel{line-height: 40px;margin-left: 54px;padding-left: 30px;background: url(image/topBar-tel.png) no-repeat left center;}
-		.header .item .list{padding: 12px 0;}
-		.header .item .list a{padding: 0 29px;line-height: 16px;border-right:2px solid #e1e1e1;}
-		.header .item .list.last a{border:none;}
-		.navBar{height: 110px;}
-		.navBar li a{color: #000;font-size: 18px;}
-		.navBar li a:hover{color: #0091db;}
-		.navBar li.active a{color: #0091db;border-top: 2px solid #0091db;padding-top: 13px;}
-		.navBar .logo{padding-top: 32px;}
-		.navBar .pull-right{padding-top: 36px;}
-		.navBar .dropdown-toggle{background: url(image/navBar-my.png) no-repeat 14px center;padding-left: 40px;}
-		.dropdown-menu>li>a{text-align: center;}
-		.nav>li>a:focus, .nav>li>a:hover{background-color: #fff;}
-		.nav .account{font-size: 18px;}
-		.nav .open>a, .nav .open>a:focus, .nav .open>a:hover{background-color: #fff;color: #0091db;}
-		</style>
 		<div class="header">
-			<div class="topBar bg">
-				<div class="w clearfix">
-					<p class="pull-left wel">您好，欢迎访问云钱袋！</p>
-					<h5 class="pull-left tel">400-8888-8888</h5>
-					<div class="pull-right">
-						<ul class="item clearfix">
-							<li class="list pull-left">
-								<a href="">登录</a>
-							</li>
-							<li class="list pull-left">
-								<a href="">注册</a>
-							</li>
-							<li class="list pull-left">
-								<a href="">帮助中心</a>
-							</li>
-							<li class="list pull-left last">
-								<a href="">关于我们</a>
-							</li>
-						</ul>
-					</div>
-				</div>
-			</div>
-			<div class="navBar">
-				<div class="w clearfix">
-					<div class="pull-left logo">
-						<a href="">
-							<img src="image/logo.png" alt="">
-						</a>
-					</div>
-					<div class="pull-right">
-						<ul class="nav navbar-nav">
-				            <li class="active">
-				            	<a href="#">首页</a>
-				            </li>
-				            <li>
-				            	<a href="#about">我要出借</a>
-				            </li>
-				            <li>
-				            	<a href="#about">我要借款</a>
-				            </li>
-				            <li>
-				            	<a href="#about">风险保障</a>
-				            </li>
-				            <li>
-				            	<a href="#about">手机理财</a>
-				            </li>
-				            <li>
-				            	<a class="dropdown-toggle" data-toggle="dropdown" href="#">
-							        <span class="account">我的账户</span> 
-							        <span class="caret"></span>
-							    </a>
-							    <ul class="dropdown-menu" role="menu">
-						            <li><a href="#">我的账户</a></li>
-						            <li><a href="#">我的理财</a></li>
-						            <li><a href="#">我要充值</a></li>
-						            <li><a href="#">我要提现</a></li>
-						            <li><a href="#">我的借款</a></li>
-						            <li class="divider"></li>
-						            <li><a href="">退出登录</a></li>
-						        </ul>
-
-				            </li>
-				        </ul>
-					</div>
-				</div>
-			</div>
+			<!-- <include title>  //此处为title -->
+			<!-- <include head>  //此处为head-->
 		</div>
 		<div class="main index-main">
 			<div class="slide">
@@ -600,7 +518,10 @@
 				
 			</div>
 		</div>
-		<!-- 此处引入footer -->
+		<div class="footer">
+			<!-- <include cooperation>  //此处为合作单位 -->
+			<!-- <include information>  //此处为底部-->
+		</div>
 	</div>
 </body>
 <script src="plugin/jquery.min.js"></script>
