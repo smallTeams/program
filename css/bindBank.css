@@ -1,0 +1,141 @@
+
+.header {
+    height: 108px;
+    vertical-align: middle;
+}
+.logo {
+    margin-top: 33px;
+}
+.go-back {
+    color: #0091DB;
+    font-size: 18px;
+    margin-top: 47px;
+}
+.main {
+    height: 470px;
+    background-color: #0091DB;
+}
+.bind-bank-container {
+    width: 414px;
+    height: 429px;
+    margin-top: 19px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    background-color: #ddebf2;
+    padding-left: 27px;
+    padding-right: 29px;
+}
+.bind-bank-header {
+    padding-top: 23px;
+}
+.bind-bank-logo {
+    display: inline-block;
+    width: 32px;
+    height: 19px;
+    background-color: #000;
+    margin-right: 11px;
+}
+.bind-bank-title {
+    font-size: 18px;
+    font-weight: bold;
+    color: #000;
+}
+.bind-bank-ul {
+    padding-top: 9px;
+}
+.bind-bank-item {
+    margin-top: 12px;
+    font-size: 0;
+    height: 38px;
+    line-height: 38px;
+
+}
+.item-label {
+    display: inline-block;
+    width: 81px;
+    height: 38px;
+    line-height: 38px;
+    font-size: 16px;
+    color: #666;
+    text-align: left;
+
+
+}
+.item-input {
+    display: inline-block;
+    height: 38px;
+    width: 319px;
+    padding-left: 14px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    border: 0;
+    vertical-align: top;
+    font-size: 14px;
+}
+.item-select {
+    display: inline-block;
+    width: 114px;
+    height: 38px;
+    font-size: 14px;
+    border: 0;
+    padding-left: 14px;
+}
+.item-second-label {
+    display: inline-block;
+    width: 52px;
+    height: 38px;
+    padding-left: 25px;
+    line-height: 38px;
+    font-size: 16px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+}
+.item-second-input {
+    width: 114px;
+    height: 39px;
+    display: inline-block;
+    font-size: 14px;
+    padding-left: 14px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    vertical-align: top;
+    border: 0;
+}
+.input-tel {
+    width: 202px;
+}
+.get-verifi {
+    display: inline-block;
+    width: 95px;
+    height: 38px;
+    line-height: 38px;
+    text-align: center;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    background-color: #0091db;
+    font-size: 14px;
+    color: #fff;
+    margin-left: 22px;
+}
+.input-message {
+    width: 136px;
+}
+.bind-bank-footer {
+    margin-top: 13px;
+    margin-left: 76px;
+    width: 317px;
+    text-align: center;
+    height: 49px;
+    line-height: 49px;
+    font-size: 18px;
+    color: #fff;
+    background-color: #0091db;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+}
