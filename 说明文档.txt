@@ -1,0 +1,26 @@
+公共部分
+  文件夹  publicTemp
+	
+  title   为<head> 部分引入的一些meta标签和公共样式类
+  topBar  为顶部bar
+  navBar  为顶部导航栏
+  
+  cooperation  为footer的第一部分
+  information  为footer的第二部分
+
+
+页面结构
+
+<div class="header">
+	<include topBar>
+	<include navBar>
+</div>
+
+<div class="main">
+	//此处为页面代码，coding
+</div>
+
+<div class="footer">
+	<include cooperation  
+	<include information  
+</div>
