@@ -1,16 +1,18 @@
 <style>
 	.navBar{height: 110px;}
-	.navBar li a{color: #000;font-size: 18px;}
+	.navBar li{padding: 0 10px;}
+	.navBar li a{color: #000;font-size: 18px;padding-left: 5px;padding-right: 5px;}
 	.navBar li a:hover{color: #0091db;}
 	.navBar li.active a{color: #0091db;border-top: 2px solid #0091db;padding-top: 13px;}
 	.navBar .logo{padding-top: 32px;}
 	.navBar .pull-right{padding-top: 36px;}
 	.navBar .dropdown-toggle{background: url(image/navBar-my.png) no-repeat 14px center;padding-left: 40px;}
-	.navBar .dropdown-toggle:hover{background: url(image/navBar-my2.png) no-repeat 14px center;}
+	.navBar .dropdown-toggle:hover,.navBar .nav .open>a{background: url(image/navBar-my2.png) no-repeat 14px center;}
 	.navBar .dropdown-menu>li>a{text-align: center;}
 	.navBar .nav>li>a:focus, .nav>li>a:hover{background-color: #fff;}
 	.navBar .nav .account{font-size: 18px;}
 	.navBar .nav .open>a, .nav .open>a:focus, .nav .open>a:hover{background-color: #fff;color: #0091db;}
+	.navBar li.active .dropdown-toggle{background: url(image/navBar-my2.png) no-repeat 14px center;}
 </style>
 <div class="navBar">
 	<div class="w clearfix">
@@ -56,3 +58,13 @@
 		</div>
 	</div>
 </div>
+<script>
+$(".dropdown-toggle,.dropdown-menu").on({
+	mouseenter:function(){
+		$(".dropdown-menu").addClass("show");
+	},
+	mouseleave : function(){
+		$(".dropdown-menu").removeClass("show");
+	}
+});
+</script>

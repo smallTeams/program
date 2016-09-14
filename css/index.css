@@ -237,8 +237,13 @@
     font-size: 18px;
     padding: 10px 30px;
     color: #fff;
+    transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -webkit-transition: all 0.3s ease 0s;
 }
-
+.lists .cen li.b .btn:hover{
+    background: #0091db;
+}
 
 .message-box{}
 .message-con{
