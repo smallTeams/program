@@ -19,7 +19,7 @@
 }
 .main {
     height: 470px;
-    background-color: #0091DB;
+    background:#0490d7 url("../image/loginBg.png") no-repeat center center ;
 }
 .bind-bank-container {
     width: 414px;
