@@ -3,15 +3,89 @@
 <head>
 	<meta charset="UTF-8">
 	<title>云钱袋</title>
-	<link rel="stylesheet" href="plugin/bootstrap3/css/bootstrap.min.css">
-	<link rel="stylesheet" href="css/common.css">
+	<!-- include title -->
+	<meta name="renderer" content="webkit">
+	<meta http-equiv="Pragma" content="no-cache">
+	<meta http-equiv="Cache-Control" content="no-cache">
+	<meta http-equiv="Expires" content="0">
+	<meta name="renderer" content="webkit|ie-comp|ie-stand">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<meta name="baidu-site-verification" content="gRWttx1PTb" />
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+	<meta name="360-site-verification" content="a24b17a78f753da8564e1c75266bae10" />
+	<meta name="keywords" content="" /> 
+	<meta name="description" content="" />
+	<link type="text/css" href="plugin/bootstrap3/css/bootstrap.min.css" rel="stylesheet" />
+	<link type="text/css" href="css/common.css" rel="stylesheet" />
+	<script src="plugin/jquery.min.js"></script>
+	<script src="plugin/bootstrap3/js/bootstrap.min.js"></script>
+	<!-- include之后 上边的可以删除掉了 -->
 	<link rel="stylesheet" href="css/index.css">
 </head>
 <body>
 	<div class="wrap">
 		<div class="header">
-			<!-- <include title>  //此处为title -->
-			<!-- <include head>  //此处为head-->
+			<!-- <include topBar>  //此处为title -->
+			<!-- <include navBar>  //此处为head-->
+			<style>
+	.navBar{height: 110px;}
+	.navBar li a{color: #000;font-size: 18px;}
+	.navBar li a:hover{color: #0091db;}
+	.navBar li.active a{color: #0091db;border-top: 2px solid #0091db;padding-top: 13px;}
+	.navBar .logo{padding-top: 32px;}
+	.navBar .pull-right{padding-top: 36px;}
+	.navBar .dropdown-toggle{background: url(image/navBar-my.png) no-repeat 14px center;padding-left: 40px;}
+	.navBar .dropdown-toggle:hover,.navBar .nav .open>a{background: url(image/navBar-my2.png) no-repeat 14px center;}
+	.navBar .dropdown-menu>li>a{text-align: center;}
+	.navBar .nav>li>a:focus, .nav>li>a:hover{background-color: #fff;}
+	.navBar .nav .account{font-size: 18px;}
+	.navBar .nav .open>a, .nav .open>a:focus, .nav .open>a:hover{background-color: #fff;color: #0091db;}
+	.navBar li.active .dropdown-toggle{background: url(image/navBar-my2.png) no-repeat 14px center;}
+</style>
+<div class="navBar">
+	<div class="w clearfix">
+		<div class="pull-left logo">
+			<a href="">
+				<img src="image/logo.png" alt="">
+			</a>
+		</div>
+		<div class="pull-right">
+			<ul class="nav navbar-nav">
+	            <li class="active">
+	            	<a href="#">首页</a>
+	            </li>
+	            <li>
+	            	<a href="#about">我要出借</a>
+	            </li>
+	            <li>
+	            	<a href="#about">我要借款</a>
+	            </li>
+	            <li>
+	            	<a href="#about">风险保障</a>
+	            </li>
+	            <li>
+	            	<a href="#about">手机理财</a>
+	            </li>
+	            <li  class="active">
+	            	<a class="dropdown-toggle" data-toggle="dropdown" href="#">
+				        <span class="account">我的账户</span> 
+				        <span class="caret"></span>
+				    </a>
+				    <ul class="dropdown-menu" role="menu">
+			            <li><a href="#">我的账户</a></li>
+			            <li><a href="#">我的理财</a></li>
+			            <li><a href="#">我要充值</a></li>
+			            <li><a href="#">我要提现</a></li>
+			            <li><a href="#">我的借款</a></li>
+			            <li class="divider"></li>
+			            <li><a href="">退出登录</a></li>
+			        </ul>
+
+	            </li>
+	        </ul>
+		</div>
+	</div>
+</div>
 		</div>
 		<div class="main index-main">
 			<div class="slide">
@@ -524,8 +598,6 @@
 		</div>
 	</div>
 </body>
-<script src="plugin/jquery.min.js"></script>
-<script src="plugin/bootstrap3/js/bootstrap.min.js"></script>
 <script src="plugin/jquery-plug/slider.js"></script>
 <script src="js/index.js"></script>
 </html>
