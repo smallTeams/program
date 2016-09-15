@@ -5,7 +5,19 @@ jQuery(".slide .slideBox").slide({
     interTime:5000,
     delayTime:700
 });
-
+jQuery(".over").slide({
+    mainCell:"ul",
+    effect:"top",
+    autoPlay:true,
+    vis:3
+});
+$(document).scroll(function(){
+    //var h = $(".footer").offset().top-$(document).scrollTop();
+   // console.log(h)
+});
+function closeicon(){
+    document.querySelector(".cover").setAttribute("class","hidden");
+}
 $(".navbar-nav li").hover(function(){
 	
 });

@@ -151,10 +151,31 @@
 			</div>
 			<div class="announcement">
 				<div class="w clearfix">
-					<div class="recent pull-left">
-						<a href="">最新公告&nbsp;&nbsp; > &nbsp;&nbsp;</a>
-						<span>近期更换资金托管平台，部分用户账户909090</span>
-						<time>2016-09-08</time>
+					<div class="recent pull-left clearfix">
+						<a href="javascript:;" class="pull-left">最新公告&nbsp;&nbsp; > &nbsp;&nbsp;</a>
+						<div class="pull-left over">
+							<ul>
+								<li>
+									<a href="">
+										<span>近期更换资金托管平台，部分用户账户909090</span>
+										<time>2016-09-08</time>
+									</a>
+								</li>
+								<li>
+									<a href="">
+										<span>近期更换资金托管平台，部分用户账户909090</span>
+										<time>2016-09-08</time>
+									</a>
+								</li>
+								<li>
+									<a href="">
+										<span>近期更换资金托管平台，部分用户账户909090</span>
+										<time>2016-09-08</time>
+									</a>
+								</li>
+							</ul>
+						</div>
+
 					</div>
 					<a href="" class="pull-right more">更多>></a>
 				</div>
@@ -663,10 +684,6 @@
 				.footer .f_main_r ul{  width:450px;  height:140px;  padding:10px 0;  box-sizing:border-box;  }
 				.footer .f_main_r ul li{  width: 100%;  height:30px;  line-height: 30px;  font-size: 16px;  text-align: left;  }
 				.footer .f_text{  width:100%;  height:70px;  text-align: center;  line-height: 50px;  font-size: 16px;  font-weight: normal;  }
-				/*提示遮罩*/
-				.footer .cover{  position: absolute;  top: 0;  left: 0;  width:100%;  height:42px;  background: url(image/f_bg.png) repeat-x;  color:#fff;  text-align: center;  line-height: 42px;  font-size: 14px;  }
-				.footer .close {  margin-left: 15px;  vertical-align: text-bottom;  display: inline-block;  width: 14px;  height: 14px;  background: url(image/close.png) no-repeat center;  }
-				.footer .hidden{  display:none;  }
 			</style>
 			<div class="f_information">
 				<div class="w ">
@@ -688,18 +705,9 @@
 						</div>
 					</div>
 					<p class="f_text">CopyRight C 2014-2015.All Rights Reserved 京ICP备00000000号</p>
-					<div class="cover">
-						温馨提示：出借有风险，选择需谨慎；平台建议的评价出借回报率仅供出借人参考，不代表未来实际收益。
-						<span onclick="closeicon()" class="close"></span>
-					</div>
-
 				</div>
 			</div>
-			<script type="text/javascript">
-				function closeicon(){
-					document.querySelector(".cover").setAttribute("class","hidden");
-				}
-			</script>
+
 
 			<!-- <include cooperation>  //此处为合作单位 -->
 			<!-- <include information>  //此处为底部-->
@@ -719,6 +727,10 @@
 					<a href=""></a>
 				</li>
 			</ul>
+		</div>
+		<div class="cover">
+			温馨提示：出借有风险，选择需谨慎；平台建议的评价出借回报率仅供出借人参考，不代表未来实际收益。
+			<span onclick="closeicon()" class="close"></span>
 		</div>
 	</div>
 </body>
