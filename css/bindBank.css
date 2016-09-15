@@ -7,13 +7,19 @@
     margin-top: 33px;
 }
 .go-back {
+    margin-top: 45px;
+}
+.go-back a{
+    line-height: 24px;
     color: #0091DB;
     font-size: 18px;
-    margin-top: 47px;
+    display: block;
+    padding-right: 35px;
+    background: url("../image/back.png") no-repeat right center;
 }
 .main {
     height: 470px;
-    background-color: #0091DB;
+    background:#0490d7 url("../image/loginBg.png") no-repeat center center ;
 }
 .bind-bank-container {
     width: 414px;
@@ -33,13 +39,12 @@
     display: inline-block;
     width: 32px;
     height: 19px;
-    background-color: #000;
     margin-right: 11px;
 }
 .bind-bank-title {
     font-size: 18px;
-    font-weight: bold;
     color: #000;
+    vertical-align: middle;
 }
 .bind-bank-ul {
     padding-top: 9px;
@@ -49,7 +54,6 @@
     font-size: 0;
     height: 38px;
     line-height: 38px;
-
 }
 .item-label {
     display: inline-block;
@@ -59,8 +63,6 @@
     font-size: 16px;
     color: #666;
     text-align: left;
-
-
 }
 .item-input {
     display: inline-block;
@@ -121,11 +123,14 @@
     font-size: 14px;
     color: #fff;
     margin-left: 22px;
+    cursor: pointer;
 }
 .input-message {
     width: 136px;
 }
 .bind-bank-footer {
+    display: block;
+    border: none;
     margin-top: 13px;
     margin-left: 76px;
     width: 317px;

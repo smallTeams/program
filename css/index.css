@@ -1,5 +1,6 @@
 .bg.content {
-    padding-bottom: 37px;
+    padding-bottom: 62px;
+    position: relative;
 }
 .slide{
     position: relative;
@@ -46,14 +47,18 @@
     background:rgba(255,255,255,0.5);
 }
 .announcement{
-    padding: 15px 0;
+    /*padding: 15px 0;*/
     border-bottom: 1px solid #e9e9e9; 
-    line-height: 1.2;
+    line-height: 46px;
+}
+.announcement .over{
+    overflow: hidden;
+    height: 46px;
 }
 .recent{
     padding-left: 25px;
 }
-.recent a{
+.recent a.pull-left{
     color: #157ffc;
     padding-left: 25px;
     background: url(../image/announcement.png) no-repeat left center;
@@ -80,6 +85,19 @@
 .character div.c2{
     margin-left: 90px;
     margin-right: 50px;
+}
+.character dt{
+    -webkit-transition: -webkit-transform 0.5s ease-out;
+    -moz-transition: -moz-transform 0.5s ease-out;
+    -o-transition: -o-transform 0.5s ease-out;
+    -ms-transition: -ms-transform 0.5s ease-out;
+}
+.character dt:hover{
+    -webkit-transform: rotateZ(360deg);
+    -moz-transform: rotateZ(360deg);
+    -o-transform: rotateZ(360deg);
+    -ms-transform: rotateZ(360deg);
+    transform: rotateZ(360deg);
 }
 .character dd{
     margin-left: 20px;
@@ -315,4 +333,21 @@
 }
 .message-con2 .list dl dt{
     width: 320px;
+}
+/*提示遮罩*/
+.cover{
+    position: fixed;
+    bottom:0;  left: 50%;
+    margin-left: -540px;
+    width:1080px;  height:42px;
+    background: url(../image/f_bg.png) repeat-x;
+    color:#fff;  text-align: center;
+    line-height: 42px;  font-size: 14px;
+}
+.close {
+    margin-left: 15px;
+    vertical-align: text-bottom;
+    display: inline-block;
+    width: 14px;  height: 14px;
+    background: url(../image/close.png) no-repeat center;
 }

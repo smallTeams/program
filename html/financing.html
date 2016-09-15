@@ -1,0 +1,571 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>云钱袋</title>
+	<!-- include title -->
+	<meta name="renderer" content="webkit">
+	<meta http-equiv="Pragma" content="no-cache">
+	<meta http-equiv="Cache-Control" content="no-cache">
+	<meta http-equiv="Expires" content="0">
+	<meta name="renderer" content="webkit|ie-comp|ie-stand">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<meta name="baidu-site-verification" content="gRWttx1PTb" />
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+	<meta name="360-site-verification" content="a24b17a78f753da8564e1c75266bae10" />
+	<meta name="keywords" content="" /> 
+	<meta name="description" content="" />
+	<link type="text/css" href="../plugin/bootstrap3/css/bootstrap.min.css" rel="stylesheet" />
+	<link type="text/css" href="../css/common.css" rel="stylesheet" />
+	<script src="../plugin/jquery.min.js"></script>
+	<script src="../plugin/bootstrap3/js/bootstrap.min.js"></script>
+	<!-- include之后 上边的可以删除掉了 -->
+	<link rel="stylesheet" href="../css/financing.css">
+</head>
+<body>
+	<div class="wrap">
+		<div class="header">
+			<!-- <include topBar>  //此处为title -->
+			<!-- <include navBar>  //此处为head-->
+			<style>
+				.navBar{height: 110px;}
+				.navBar li a{color: #000;font-size: 18px;}
+				.navBar li a:hover{color: #0091db;}
+				.navBar li.active a{color: #0091db;border-top: 2px solid #0091db;padding-top: 13px;}
+				.navBar .logo{padding-top: 32px;}
+				.navBar .pull-right{padding-top: 36px;}
+				.navBar .dropdown-toggle{background: url(../image/navBar-my.png) no-repeat 14px center;padding-left: 40px;}
+				.navBar .dropdown-toggle:hover,.navBar .nav .open>a{background: url(../image/navBar-my2.png) no-repeat 14px center;}
+				.navBar .dropdown-menu>li>a{text-align: center;}
+				.navBar .nav>li>a:focus, .nav>li>a:hover{background-color: #fff;}
+				.navBar .nav .account{font-size: 18px;}
+				.navBar .nav .open>a, .nav .open>a:focus, .nav .open>a:hover{background-color: #fff;color: #0091db;}
+				.navBar li.active .dropdown-toggle{background: url(../image/navBar-my2.png) no-repeat 14px center;}
+			</style>
+			<div class="navBar">
+				<div class="w clearfix">
+					<div class="pull-left logo">
+						<a href="">
+							<img src="../image/logo.png" alt="">
+						</a>
+					</div>
+					<div class="pull-right">
+						<ul class="nav navbar-nav">
+				            <li class="active">
+				            	<a href="#">首页</a>
+				            </li>
+				            <li>
+				            	<a href="#about">我要出借</a>
+				            </li>
+				            <li>
+				            	<a href="#about">我要借款</a>
+				            </li>
+				            <li>
+				            	<a href="#about">风险保障</a>
+				            </li>
+				            <li>
+				            	<a href="#about">手机理财</a>
+				            </li>
+				            <li  class="active">
+				            	<a class="dropdown-toggle" data-toggle="dropdown" href="#">
+							        <span class="account">我的账户</span> 
+							        <span class="caret"></span>
+							    </a>
+							    <ul class="dropdown-menu" role="menu">
+						            <li><a href="#">我的账户</a></li>
+						            <li><a href="#">我的理财</a></li>
+						            <li><a href="#">我要充值</a></li>
+						            <li><a href="#">我要提现</a></li>
+						            <li><a href="#">我的借款</a></li>
+						            <li class="divider"></li>
+						            <li><a href="">退出登录</a></li>
+						        </ul>
+
+				            </li>
+				        </ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="main index-main">
+			<div class="financing-nav">
+				<div class="w clearfix">
+					<ul>
+						<li class="active">全部产品</li>
+						<li>定投宝01</li>
+						<li>定投宝02</li>
+						<li>定投宝03</li>
+						<li>定投宝04</li>
+					</ul>
+				</div>
+			</div>
+			<div class="content bg">
+				<div class="w">
+					<div class="lists">
+						<div class="list">
+							<ul class="list-group">
+								<li class="list-item">
+									<div class="recommend-marked"></div>
+									<div class="top clearfix">
+										<h3 class="pull-left">定投保1</h3>
+										<div class="pull-right clearfix">
+											<span>市场有风险，投资需谨慎！</span>
+											<span class="label">1000元起投</span>
+										</div>
+									</div>
+									<div class="cen">
+										<ul class="clearfix">
+											<li class="pull-left y">
+												<p class="up"><span class="y-big">8.5</span>%</p>
+												<span>预计年化收益率</span>
+											</li>
+											<li class="pull-left d">
+												<p class="up"><span class="d-big">3</span>个月</p>
+												<span>出借期限</span>
+											</li>
+											<li class="pull-left t">
+												<p class="up"><span class="d-big">1000</span>万元</p>
+												<span>出借总金额</span>
+											</li>
+											<li class="pull-left p">
+												<div class="progress">
+												  <div class="progress-bar progress-bar-danger recommend-bg" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%">
+												  <div class="badge recommend-bg">16%
+													<div class="caret2 recommend-border"></div>
+												  </div>  
+												  </div>
+												</div>
+												<span>剩余可出借金额：<b class="recommend-color">20000</b>元</span>
+											</li>
+											<li class="pull-left b">
+												<button class="btn recommend-bg">立即出借</button>
+											</li>
+										</ul>
+									</div>
+								</li>
+								<li class="list-item">
+									<div class="recommend-marked"></div>
+									<div class="top clearfix">
+										<h3 class="pull-left">定投保1</h3>
+										<div class="pull-right clearfix">
+											<span>市场有风险，投资需谨慎！</span>
+											<span class="label">1000元起投</span>
+										</div>
+									</div>
+									<div class="cen">
+										<ul class="clearfix">
+											<li class="pull-left y">
+												<p class="up"><span class="y-big">8.5</span>%</p>
+												<span>预计年化收益率</span>
+											</li>
+											<li class="pull-left d">
+												<p class="up"><span class="d-big">3</span>个月</p>
+												<span>出借期限</span>
+											</li>
+											<li class="pull-left t">
+												<p class="up"><span class="d-big">1000</span>万元</p>
+												<span>出借总金额</span>
+											</li>
+											<li class="pull-left p">
+												<div class="progress">
+												  <div class="progress-bar progress-bar-danger recommend-bg" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%">
+												  <div class="badge recommend-bg">16%
+													<div class="caret2 recommend-border"></div>
+												  </div>  
+												  </div>
+												</div>
+												<span>剩余可出借金额：<b class="recommend-color">20000</b>元</span>
+											</li>
+											<li class="pull-left b">
+												<button class="btn recommend-bg">立即出借</button>
+											</li>
+										</ul>
+									</div>
+								</li>
+								<li class="list-item">
+									<div class="recommend-marked"></div>
+									<div class="top clearfix">
+										<h3 class="pull-left">定投保1</h3>
+										<div class="pull-right clearfix">
+											<span>市场有风险，投资需谨慎！</span>
+											<span class="label">1000元起投</span>
+										</div>
+									</div>
+									<div class="cen">
+										<ul class="clearfix">
+											<li class="pull-left y">
+												<p class="up"><span class="y-big">8.5</span>%</p>
+												<span>预计年化收益率</span>
+											</li>
+											<li class="pull-left d">
+												<p class="up"><span class="d-big">3</span>个月</p>
+												<span>出借期限</span>
+											</li>
+											<li class="pull-left t">
+												<p class="up"><span class="d-big">1000</span>万元</p>
+												<span>出借总金额</span>
+											</li>
+											<li class="pull-left p">
+												<div class="progress">
+												  <div class="progress-bar progress-bar-danger recommend-bg" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%">
+												  <div class="badge recommend-bg">16%
+													<div class="caret2 recommend-border"></div>
+												  </div>  
+												  </div>
+												</div>
+												<span>剩余可出借金额：<b class="recommend-color">20000</b>元</span>
+											</li>
+											<li class="pull-left b">
+												<button class="btn recommend-bg">立即出借</button>
+											</li>
+										</ul>
+									</div>
+								</li>
+								<li class="list-item">
+									<div class="recommend-marked"></div>
+									<div class="top clearfix">
+										<h3 class="pull-left">定投保1</h3>
+										<div class="pull-right clearfix">
+											<span>市场有风险，投资需谨慎！</span>
+											<span class="label">1000元起投</span>
+										</div>
+									</div>
+									<div class="cen">
+										<ul class="clearfix">
+											<li class="pull-left y">
+												<p class="up"><span class="y-big">8.5</span>%</p>
+												<span>预计年化收益率</span>
+											</li>
+											<li class="pull-left d">
+												<p class="up"><span class="d-big">3</span>个月</p>
+												<span>出借期限</span>
+											</li>
+											<li class="pull-left t">
+												<p class="up"><span class="d-big">1000</span>万元</p>
+												<span>出借总金额</span>
+											</li>
+											<li class="pull-left p">
+												<div class="progress">
+												  <div class="progress-bar progress-bar-danger recommend-bg" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%">
+												  <div class="badge recommend-bg">16%
+													<div class="caret2 recommend-border"></div>
+												  </div>  
+												  </div>
+												</div>
+												<span>剩余可出借金额：<b class="recommend-color">20000</b>元</span>
+											</li>
+											<li class="pull-left b">
+												<button class="btn recommend-bg">立即出借</button>
+											</li>
+										</ul>
+									</div>
+								</li>
+								<li class="list-item">
+									<div class="recommend-marked hidden"></div>
+									<div class="top clearfix">
+										<h3 class="pull-left">定投保1</h3>
+										<div class="pull-right clearfix">
+											<span>市场有风险，投资需谨慎！</span>
+											<span class="label">1000元起投</span>
+										</div>
+									</div>
+									<div class="cen">
+										<ul class="clearfix">
+											<li class="pull-left y">
+												<p class="up"><span class="y-big">8.5</span>%</p>
+												<span>预计年化收益率</span>
+											</li>
+											<li class="pull-left d">
+												<p class="up"><span class="d-big">3</span>个月</p>
+												<span>出借期限</span>
+											</li>
+											<li class="pull-left t">
+												<p class="up"><span class="d-big">1000</span>万元</p>
+												<span>出借总金额</span>
+											</li>
+											<li class="pull-left p">
+												<div class="progress">
+												  <div class="progress-bar progress-bar-danger recommend-bg" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%">
+												  <div class="badge recommend-bg">16%
+													<div class="caret2 recommend-border"></div>
+												  </div>  
+												  </div>
+												</div>
+												<span>剩余可出借金额：<b class="recommend-color">20000</b>元</span>
+											</li>
+											<li class="pull-left b">
+												<button class="btn recommend-bg">立即出借</button>
+											</li>
+										</ul>
+									</div>
+								</li>
+								<li class="list-item">
+									<div class="recommend-marked hidden"></div>
+									<div class="top clearfix">
+										<h3 class="pull-left">定投保1</h3>
+										<div class="pull-right clearfix">
+											<span>市场有风险，投资需谨慎！</span>
+											<span class="label">1000元起投</span>
+										</div>
+									</div>
+									<div class="cen">
+										<ul class="clearfix">
+											<li class="pull-left y">
+												<p class="up"><span class="y-big">8.5</span>%</p>
+												<span>预计年化收益率</span>
+											</li>
+											<li class="pull-left d">
+												<p class="up"><span class="d-big">3</span>个月</p>
+												<span>出借期限</span>
+											</li>
+											<li class="pull-left t">
+												<p class="up"><span class="d-big">1000</span>万元</p>
+												<span>出借总金额</span>
+											</li>
+											<li class="pull-left p">
+												<div class="progress">
+												  <div class="progress-bar progress-bar-danger recommend-bg" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%">
+												  <div class="badge recommend-bg">16%
+													<div class="caret2 recommend-border"></div>
+												  </div>  
+												  </div>
+												</div>
+												<span>剩余可出借金额：<b class="recommend-color">20000</b>元</span>
+											</li>
+											<li class="pull-left b">
+												<button class="btn recommend-bg">立即出借</button>
+											</li>
+										</ul>
+									</div>
+								</li>
+								<li class="list-item">
+									<div class="recommend-marked hidden"></div>
+									<div class="top clearfix">
+										<h3 class="pull-left">定投保1</h3>
+										<div class="pull-right clearfix">
+											<span>市场有风险，投资需谨慎！</span>
+											<span class="label">1000元起投</span>
+										</div>
+									</div>
+									<div class="cen">
+										<ul class="clearfix">
+											<li class="pull-left y">
+												<p class="up"><span class="y-big">8.5</span>%</p>
+												<span>预计年化收益率</span>
+											</li>
+											<li class="pull-left d">
+												<p class="up"><span class="d-big">3</span>个月</p>
+												<span>出借期限</span>
+											</li>
+											<li class="pull-left t">
+												<p class="up"><span class="d-big">1000</span>万元</p>
+												<span>出借总金额</span>
+											</li>
+											<li class="pull-left p">
+												<div class="progress">
+												  <div class="progress-bar progress-bar-danger recommend-bg" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%">
+												  <div class="badge recommend-bg">16%
+													<div class="caret2 recommend-border"></div>
+												  </div>  
+												  </div>
+												</div>
+												<span>剩余可出借金额：<b class="recommend-color">20000</b>元</span>
+											</li>
+											<li class="pull-left b">
+												<button class="btn recommend-bg">立即出借</button>
+											</li>
+										</ul>
+									</div>
+								</li>
+								<li class="list-item">
+									<div class="recommend-marked hidden"></div>
+									<div class="top clearfix">
+										<h3 class="pull-left">定投保1</h3>
+										<div class="pull-right clearfix">
+											<span>市场有风险，投资需谨慎！</span>
+											<span class="label">1000元起投</span>
+										</div>
+									</div>
+									<div class="cen">
+										<ul class="clearfix">
+											<li class="pull-left y">
+												<p class="up"><span class="y-big">8.5</span>%</p>
+												<span>预计年化收益率</span>
+											</li>
+											<li class="pull-left d">
+												<p class="up"><span class="d-big">3</span>个月</p>
+												<span>出借期限</span>
+											</li>
+											<li class="pull-left t">
+												<p class="up"><span class="d-big">1000</span>万元</p>
+												<span>出借总金额</span>
+											</li>
+											<li class="pull-left p">
+												<div class="progress">
+												  <div class="progress-bar progress-bar-danger recommend-bg" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%">
+												  <div class="badge recommend-bg">16%
+													<div class="caret2 recommend-border"></div>
+												  </div>  
+												  </div>
+												</div>
+												<span>剩余可出借金额：<b class="recommend-color">20000</b>元</span>
+											</li>
+											<li class="pull-left b">
+												<button class="btn recommend-bg">立即出借</button>
+											</li>
+										</ul>
+									</div>
+								</li>
+								<li class="list-item">
+									<div class="recommend-marked hidden"></div>
+									<div class="top clearfix">
+										<h3 class="pull-left">定投保1</h3>
+										<div class="pull-right clearfix">
+											<span>市场有风险，投资需谨慎！</span>
+											<span class="label">1000元起投</span>
+										</div>
+									</div>
+									<div class="cen">
+										<ul class="clearfix">
+											<li class="pull-left y">
+												<p class="up"><span class="y-big">8.5</span>%</p>
+												<span>预计年化收益率</span>
+											</li>
+											<li class="pull-left d">
+												<p class="up"><span class="d-big">3</span>个月</p>
+												<span>出借期限</span>
+											</li>
+											<li class="pull-left t">
+												<p class="up"><span class="d-big">1000</span>万元</p>
+												<span>出借总金额</span>
+											</li>
+											<li class="pull-left p">
+												<div class="progress">
+												  <div class="progress-bar progress-bar-danger recommend-bg" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%">
+												  <div class="badge recommend-bg">16%
+													<div class="caret2 recommend-border"></div>
+												  </div>  
+												  </div>
+												</div>
+												<span>剩余可出借金额：<b class="recommend-color">20000</b>元</span>
+											</li>
+											<li class="pull-left b">
+												<button class="btn recommend-bg">立即出借</button>
+											</li>
+										</ul>
+									</div>
+								</li>
+								<li class="list-item">
+									<div class="recommend-marked hidden"></div>
+									<div class="top clearfix">
+										<h3 class="pull-left">定投保1</h3>
+										<div class="pull-right clearfix">
+											<span>市场有风险，投资需谨慎！</span>
+											<span class="label">1000元起投</span>
+										</div>
+									</div>
+									<div class="cen">
+										<ul class="clearfix">
+											<li class="pull-left y">
+												<p class="up"><span class="y-big">8.5</span>%</p>
+												<span>预计年化收益率</span>
+											</li>
+											<li class="pull-left d">
+												<p class="up"><span class="d-big">3</span>个月</p>
+												<span>出借期限</span>
+											</li>
+											<li class="pull-left t">
+												<p class="up"><span class="d-big">1000</span>万元</p>
+												<span>出借总金额</span>
+											</li>
+											<li class="pull-left p">
+												<div class="progress">
+												  <div class="progress-bar progress-bar-danger recommend-bg" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%">
+												  <div class="badge recommend-bg">16%
+													<div class="caret2 recommend-border"></div>
+												  </div>  
+												  </div>
+												</div>
+												<span>剩余可出借金额：<b class="recommend-color">20000</b>元</span>
+											</li>
+											<li class="pull-left b">
+												<button class="btn recommend-bg">立即出借</button>
+											</li>
+										</ul>
+									</div>
+								</li>
+								<li class="list-item">
+									<div class="recommend-marked hidden"></div>
+									<div class="top clearfix">
+										<h3 class="pull-left">定投保1</h3>
+										<div class="pull-right clearfix">
+											<span>市场有风险，投资需谨慎！</span>
+											<span class="label">1000元起投</span>
+										</div>
+									</div>
+									<div class="cen">
+										<ul class="clearfix">
+											<li class="pull-left y">
+												<p class="up"><span class="y-big">8.5</span>%</p>
+												<span>预计年化收益率</span>
+											</li>
+											<li class="pull-left d">
+												<p class="up"><span class="d-big">3</span>个月</p>
+												<span>出借期限</span>
+											</li>
+											<li class="pull-left t">
+												<p class="up"><span class="d-big">1000</span>万元</p>
+												<span>出借总金额</span>
+											</li>
+											<li class="pull-left p">
+												<div class="progress">
+												  <div class="progress-bar progress-bar-danger recommend-bg" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%">
+												  <div class="badge recommend-bg">16%
+													<div class="caret2 recommend-border"></div>
+												  </div>  
+												  </div>
+												</div>
+												<span>剩余可出借金额：<b class="recommend-color">20000</b>元</span>
+											</li>
+											<li class="pull-left b">
+												<button class="btn recommend-bg">立即出借</button>
+											</li>
+										</ul>
+									</div>
+								</li>
+							</ul>
+						</div>
+						
+					</div>
+					<div class="clearfix financing-foot-nav">
+						<span class="foot-nav foot-nav-top hidden">
+							<a class="long" href="#">上一页</a>
+							<a href="#">首页</a>
+						</span>
+						<span class="foot-nav-more hidden">...</span>
+						<ul>
+							<li class="active"><a href="#">1</a></li>
+							<li><a href="#">2</a></li>
+							<li><a href="#">3</a></li>
+							<li><a href="#">4</a></li>
+							<li><a href="#">5</a></li>
+						</ul>
+						<span class="foot-nav-more">...</span>
+						<span class="foot-nav foot-nav-down">
+							<a href="#">尾页</a>
+							<a class="long" href="#">下一页</a>
+						</span>
+					</div>
+				</div>
+				
+			</div>
+		</div>
+		<div class="footer">
+			<!-- <include cooperation>  //此处为合作单位 -->
+			<!-- <include information>  //此处为底部-->
+		</div>
+	</div>
+</body>
+<script src="../plugin/jquery-plug/slider.js"></script>
+<script src="../js/index.js"></script>
+</html>
