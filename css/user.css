@@ -1,0 +1,215 @@
+.item-show {
+    margin-top: 33px;
+    color: #000;
+}
+.item-main {
+    display: inline-block;
+    border-left: 3px solid #0091db;
+    font-size: 16px;
+    padding-left: 17px;
+}
+.item-name {
+    font-size:14px ;
+    padding-left: 17px;
+    color: #808080;
+}
+.item-detail-container {
+    margin-top: 30px;
+    border: 1px solid #0091db;
+    width: 1078px;
+    height: 733px;
+    font-family: Microsoft YaHei;
+}
+.classify-container {
+    background-color: #f7fafc;
+    font-size: 16px;
+    width: 214px;
+    height: 733px;
+    border-right: 1px solid #0091db;
+}
+.classify-title,
+.classify-item{
+    height: 50px;
+    line-height: 50px;
+    width: 214px;
+}
+.classify-title {
+    width: 169px;
+    color: #0091db;
+}
+.classify-icon {
+    display: inline-block;
+    margin-left: 15px;
+    margin-right: 12px;
+    vertical-align: middle;
+}
+.classify-item {
+    text-align: center;
+    color: #808080;
+}
+.classify-item.active {
+    color: #000;
+    border-top: 1px solid #0091db;
+    border-bottom: 1px solid #0091db;
+    background-color: #fff;
+    width: 215px;
+}
+/*面板account*/
+.show-detail-container {
+    width: 863px;
+    height: 733px;
+}
+.detail-panel {
+    padding: 0 40px 0 50px;
+    width: 773px;
+    height: 733px;
+    display: none;
+}
+.detail-panel.active {
+    display: block;
+}
+.account-user {
+    height: 68px;
+    line-height: 68px;
+    border-bottom: 1px solid #f5f5f5;
+}
+.account-user-icon {
+    margin-right: 13px;
+}
+.account-user-name {
+    font-size: 16px;
+    color: #0392db;
+}
+.account-user-login-time {
+    font-size: 14px;
+    color: #808080;
+}
+.account-safe {
+    height: 66px;
+    line-height: 66px;
+    font-size: 14px;
+    border-bottom: 1px solid #ff5607;
+}
+.account-safe-leval {
+    padding-left: 40px;
+    height: 66px;
+    line-height: 66px;
+}
+.account-saft-icon {
+    margin-left: 21px;
+}
+.account-risk-assessment {
+    height: 66px;
+    line-height: 66px;
+}
+.go-risk-assessment {
+    color: #0084e1;
+}
+.account-money {
+    padding: 44px 0 36px 40px;
+    font-size: 14px;
+    border-bottom: 1px solid #ff5607;
+    color: #808080;
+}
+.account-money-total-container,
+.account-money-yesterday-container {
+    display: inline-block;
+    width: 180px;
+    height: 146px;
+    border-right: 1px solid #f5f5f5;
+}
+.account-money-total-container {
+    padding-top: 46px;
+    height: 100px;
+    vertical-align: top;
+}
+.account-money-yesterday-container {
+    text-align: center;
+}
+.account-money-total {
+    font-size: 34px;
+    color: #ff5607;
+}
+
+.account-money-income-container {
+    border-bottom: 1px solid #f5f5f5;
+    width: 180px;
+    height: 73px;
+}
+.account-money-available-container {
+    margin-top: 20px;
+}
+.account-money-income ,
+.account-money-available {
+    font-size: 24px;
+    color: #000;
+}
+.account-detail-query {
+    height: 92px;
+    line-height: 92px;
+    font-size: 16px;
+}
+.query-time {
+    margin-left: 160px;
+}
+.query-time-title {
+    margin-left: 14px;
+    font-size: 14px;
+}
+.query-time-input1 ,
+.query-time-input2{
+    display: inline-block;
+    height: 33px;
+    width: 175px;
+    border: 1px solid #0392db;
+}
+.query-btn {
+    width: 88px;
+    height: 33px;
+    line-height: 33px;
+    text-align: center;
+    color: #0392db;
+    border: 1px solid #0392db;
+    font-size: 14px;
+    vertical-align: middle;
+    background-color: #fff;
+    margin-top: 28px;
+}
+.account-detail-show {
+    color: #808080;
+}
+.account-detail-show-title {
+    width: 100%;
+    height: 48px;
+    background-color: #edf9ff;
+}
+.md-3 {
+    width: 25%;
+    float: left;
+    height: 38px;
+    line-height: 38px;
+    text-align: center;
+
+}
+.md-3-title {
+    height: 48px;
+    line-height: 48px;
+}
+.color-main {
+    color: #0091db;
+}
+.color-red {
+    color: #ff5607;
+}
+.triangle-down {
+    display: inline-block;
+    width: 0;
+    height: 0;
+    border: 5px solid transparent;
+    border-top-color: #0091db;
+    margin-left: 20px;
+}
+/*充值界面*/
+.recharge-title {
+    color: #0392db;
+}
