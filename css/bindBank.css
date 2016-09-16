@@ -23,8 +23,8 @@
 }
 .bind-bank-container {
     width: 414px;
-    height: 429px;
-    margin-top: 19px;
+    padding-bottom: 15px;
+    margin-top: 13px;
     -webkit-border-radius: 10px;
     -moz-border-radius: 10px;
     border-radius: 10px;
@@ -50,10 +50,11 @@
     padding-top: 9px;
 }
 .bind-bank-item {
-    margin-top: 12px;
+    margin-top: 14px;
     font-size: 0;
     height: 38px;
     line-height: 38px;
+    position: relative;
 }
 .item-label {
     display: inline-block;
@@ -143,4 +144,20 @@
     -webkit-border-radius: 10px;
     -moz-border-radius: 10px;
     border-radius: 10px;
+}
+
+.msg-box{
+    position: absolute;
+    left: 80px;
+    top: -26px;
+    height: 20px;
+}
+.msg-box .n-msg{
+    color: #c33;
+}
+.msg-box .n-icon{
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    background: url("../image/validator.png") no-repeat;
 }
