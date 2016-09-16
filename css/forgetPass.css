@@ -21,9 +21,9 @@
     background: #0490d7 url("../image/loginBg.png") no-repeat center center;
 }
 .container{
-    margin-top: 50px;
+    margin-top: 40px;
     width: 310px;
-    padding: 44px 25px 30px;
+    padding: 44px 25px 0px;
     -webkit-border-radius: 10px;
     -moz-border-radius: 10px;
     border-radius: 10px;
@@ -65,7 +65,6 @@
     background: #048cd1;
 }
 .pt10{
-    padding-top: 10px;
 }
 .href a{
     color: #0091db;
@@ -84,4 +83,9 @@
     width: 16px;
     height: 16px;
     background: url("../image/validator.png") no-repeat;
+}
+.send{
+    padding: 8px;
+    background: #0091db;
+    color: #fff;
 }

@@ -1,0 +1,461 @@
+.bg.content {
+    padding-bottom: 37px;
+}
+
+.lists .title{
+    padding: 10px 0 16px;
+}
+.lists .title.first-title{
+    padding: 30px 0 16px;
+}
+
+.lists .title h3 {
+    font-size: 18px;
+    line-height: 18px;
+    color: #939393;
+}
+
+
+.lists .title h3:before {
+    content: "";
+    width: 3px;
+    height: 18px;
+    display: inline-block;
+    background: #0091db;
+    vertical-align: top;
+    margin-right: 10px;
+}
+.lists .list{
+
+}
+.lists .list-item{
+    background: #fff;
+    border: 1px solid #e9e9e9;
+    padding-left: 35px;
+    padding-top: 15px;
+    padding-right: 40px;
+    padding-bottom: 25px;
+    position: relative;
+    margin-bottom: 20px;
+}
+.lists .list-item .top{
+    height:35px;
+    padding-bottom: 10px;
+    line-height: 35px;
+    border-bottom:1px solid #e9e9e9; 
+}
+.lists .list-item .top h3{
+    line-height: 35px;
+    color: #000;
+}
+
+.lists .progress{
+    width: 212px;
+    height: 6px;
+    margin-bottom: 12px;
+    overflow: visible;
+    display: inline-block;
+    vertical-align: bottom;
+}
+.lists .margin-r30{
+    margin-right:30px;
+}
+.lists .progress-bar{
+    height: 6px;
+    border-radius: 4px;
+    position: relative;
+}
+.lists .badge{
+    position: absolute;
+    bottom: 10px;
+    right: -15px;
+    border-radius: 0;
+}
+.lists .caret2{
+    position: absolute;
+    left: 50%;
+    margin-left: -5px;
+    bottom: -5px;
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+}
+.lists .up{
+    line-height: 1;
+}
+.lists .y-big{
+    font-size: 48px;
+    color: #0091db;
+}
+.lists .d-big{
+    font-size: 30px;
+    color: #000;
+}
+.lists .cen li{
+    padding: 0 10px;
+    text-align: center;
+}
+.lists .cen li.y{
+    padding-top: 25px;
+    width: 130px;
+}
+.lists .cen li.d{
+    padding-top: 40px;
+    width: 70px;
+}
+.lists .cen li.m{
+    padding-top: 40px;
+    width: 85px;
+}
+.lists .cen li.x{
+    padding-top: 56px;
+    width: 130px;
+}
+.lists .cen li.s{
+    padding-top: 56px;
+    width: 160px;
+}
+.lists .cen li.day1{
+    padding-top: 56px;
+    width: 80px;
+}
+.lists .cen li.day2{
+    padding-top: 56px;
+    width: 80px;
+}
+.lists .cen li .up{
+    margin-bottom: 3px;
+}
+.lists .cen li.t{
+    padding-top: 40px;
+    width: 105px;
+}
+
+
+.lists .invest-text{
+    width:430px;
+    height:150px;
+}
+.lists .invest-text li{
+    font-size: 18px;
+    height:50px;
+    line-height: 50px;
+}
+.lists .invest-text li .invest-login{
+    font-size: 18px;
+    height: 50px;
+    margin: 0 50px 0 18px;
+    line-height: 50px;
+}
+.lists .invest-text li .red{
+    color: #f54630;
+}
+.lists .invest-text li .blue{
+    color: #0091db;
+    font-size: 18px; 
+    margin-right: 5px;
+}
+.lists .invest-recharge{
+    display: inline-block;
+    width: 60px;
+    height:30px;
+    border:1px solid #dcdada;
+    box-sizing:border-box;
+    color:#0091db;
+    text-align: center;
+    line-height: 26px;
+    border-radius: 5px;
+}
+.lists .invest-recharge:hover{
+    border:1px solid #0091db;
+}
+.lists .invest-input{
+    display: inline-block;
+    border-bottom: 1px solid #dcdada;
+    margin-left: 18px;
+    width: 195px;
+    height: 50px;
+}
+
+.lists .invest-input input{
+    display: block;
+    border: none;
+    outline: none;
+    color: #dcdada;
+    font-size: 18px;
+    width: 100%;
+    height: 49px;
+
+}
+
+.lists .invest-text li.black{
+    color:#000;
+}
+.lists .invest-discount{
+    width:360px;
+    height:150px;
+}
+.lists .invest-select{
+    width: 260px;
+    height: 46px;
+    line-height: 46px;
+    border: 1px solid #dcdada;
+    text-align: center;
+    color: #dcdada;
+    margin-top: 16px;
+    position: relative;
+}
+.lists .invest-select:after{
+    content: "";
+    width: 0;
+    height: 0;
+    border-left: 9px solid transparent;
+    border-right: 9px solid transparent;
+    border-top: 11px solid #dcdada;
+    line-height: 46px;
+    position: absolute;
+    top: 15px;
+    right: 10px;
+}
+
+.lists .invest-btn{
+    width:210px;
+    height:150px;
+}
+.lists button{
+    width:145px;
+    height:46px;
+    background: #ff5607;
+    border-radius: 5px;
+    text-align: center;
+    line-height: 46px;
+    color:#fff;
+    outline: none;
+    border: none;
+    margin-top:45px;
+}
+
+
+.lists .describe-text{
+    border: 1px solid #e9e9e9;
+}
+.lists .nav-tabs{
+    border: none;
+    background: #fff;
+}
+.lists .nav-tabs>li {
+    width: 160px;
+    text-align: center;
+    margin-top: -1px;
+}
+.lists .nav-tabs>li>a{
+    margin: 0;
+    border-radius: 0;
+    font-size: 16px;
+    background: #fff;
+    border: 1px solid #e9e9e9;
+    padding: 17px 15px ;
+}
+.lists .nav-tabs>li.active>a,.lists .nav-tabs>li.active>a:focus,.lists .nav-tabs>li.active>a:hover,.lists.navBar .nav>li>a:focus,.lists .nav>li>a:hover {
+    color: #0091db;
+    cursor: default;
+    background-color: #fff;
+    border: 1px solid #e9e9e9;
+    border-bottom-color: transparent;
+    border-top: 2px solid #0091db;
+    padding:16px 15px 17px;
+}
+.lists .describe-title h4 {
+    font-size: 18px;
+    line-height: 56px;
+    height:56px;
+    color: #0091db;
+}
+.lists .describe-title h4:before {
+    content: "";
+    width: 2px;
+    height: 56px;
+    display: inline-block;
+    background: #0091db;
+    vertical-align: top;
+    margin-right: 32px;
+}
+.lists .describe-content{
+    width:1010px;
+    padding:14px 34px;
+    background:#fff;
+}
+.lists h5{
+    color:#000;
+    margin-bottom: 30px;
+}
+
+.lists .describe-text p{
+    text-indent:30px;
+    color:#808080;
+    line-height: 24px;
+    margin-bottom: 30px;
+}
+
+.lists .describe-audit{
+    width:100%;
+    background:#fff;
+}
+.lists .describe-audit li{
+    width:100%;
+    height:48px;
+    background:#fff;
+}
+.lists .describe-audit .odd{
+    background:#edf1f4;
+}
+.lists .describe-audit li:first-child{
+    background:#edf9ff;
+    color:#0091db;
+}
+.lists .describe-audit li span{
+    line-height: 48px;
+    height:48px;
+    display: inline-block;
+    text-align: center;
+}
+.lists .audit-l{
+    width:460px;
+}
+.lists .audit-c{
+    width:300px;
+}
+.lists .audit-r{
+    width:315px;
+}
+
+.financing-foot-nav{
+    letter-spacing: -4px;
+    text-align: right;
+    width: 100%;
+    height: 40px;
+    margin-top: 30px;
+}
+.foot-nav{
+    height: 37px;
+    letter-spacing: 0px;
+    vertical-align: top;
+    display: inline-block;
+}
+
+.foot-nav a{
+    width: 51px;
+    height: 37px;
+    letter-spacing: 0px;
+    border-radius: 5px;
+    display: inline-block;
+    font-size: 14px;
+    margin-right: 10px;
+    text-align: center;
+    line-height: 37px;
+    border:1px solid #dcdcdc;
+}
+.foot-nav .long{
+    width:73px;
+}
+.financing-foot-nav ul {
+    display: inline-block;
+    letter-spacing: -4px;
+}
+.financing-foot-nav ul li,.foot-nav-more{
+    width: 37px;
+    height: 37px;
+    letter-spacing: 0px;
+    border-radius: 5px;
+    display: inline-block;
+    font-size: 16px;
+    margin-right: 10px;
+    text-align: center;
+    line-height: 37px;
+    border:1px solid #dcdcdc;
+}
+.foot-nav-more{
+    border:1px solid #f5f5f5;
+}
+
+.financing-foot-nav ul li a{
+    display: block;
+    border-radius: 5px;
+    width: 100%;
+    height:100%;
+}
+.financing-foot-nav ul li.active a,.financing-foot-nav ul li:hover a,.foot-nav a:hover{  
+    color:#fff;
+    background: #0091db;
+    border:1px solid #0091db;
+
+}
+
+
+/* 本例子css */
+.slideGroup{ 
+    width:1010px; 
+    text-align:left;  
+}
+
+.slideGroup .slideBox{ 
+    overflow:hidden; 
+    zoom:1; 
+    padding:10px 0 10px 90px; 
+    position:relative;  
+
+}
+
+.slideGroup .sPrev,.slideGroup .sNext{ 
+    position:absolute; 
+    left:5px; 
+    top:60px; 
+    display:block; 
+    width:44px; 
+    height:44px; 
+    background:url(../image/icoLeft.png) center center no-repeat; 
+}
+.slideGroup .sNext{ 
+    left:auto; 
+    right:5px; 
+    background:url(../image/icoRight.png) center center no-repeat;  
+}
+.slideGroup .sPrev:hover,.slideGroup .sNext:hover{ border-color:#f60;  }
+
+.slideGroup .parBd ul{ overflow:hidden; zoom:1;   }
+.slideGroup .parBd ul li{ 
+    margin:0 8px; 
+    float:left; 
+    _display:inline; 
+    overflow:hidden; 
+    text-align:center;  
+}
+.slideGroup .parBd ul li .pic{ text-align:center; }
+.slideGroup .parBd ul li .pic img{ 
+    width:186px; 
+    height:146px; 
+    display:block;  
+    padding:2px; 
+}
+.slideGroup .parBd ul li .pic a:hover img{ border-color:#999;  }
+
+                            
+
+/*提示遮罩*/
+.cover{
+    position: fixed;
+    bottom:0;  left: 50%;
+    margin-left: -540px;
+    width:1080px;  height:42px;
+    background: url(../image/f_bg.png) repeat-x;
+    color:#fff;  text-align: center;
+    line-height: 42px;  font-size: 14px;
+}
+.close {
+    margin-left: 15px;
+    vertical-align: text-bottom;
+    display: inline-block;
+    width: 14px;  height: 14px;
+    background: url(../image/close.png) no-repeat center;
+}
