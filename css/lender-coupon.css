@@ -1,0 +1,145 @@
+.item-show {
+    margin-top: 33px;
+    color: #000;
+}
+.item-main {
+    display: inline-block;
+    border-left: 3px solid #0091db;
+    font-size: 16px;
+    padding-left: 17px;
+}
+.item-name {
+    font-size:14px ;
+    padding-left: 17px;
+    color: #808080;
+}
+.item-detail-container {
+    margin-top: 30px;
+    border: 1px solid #0091db;
+    width: 1078px;
+    height: 733px;
+    font-family: Microsoft YaHei;
+}
+.classify-container {
+    background-color: #f7fafc;
+    font-size: 16px;
+    width: 214px;
+    height: 733px;
+    border-right: 1px solid #0091db;
+}
+.classify-title,
+.classify-item{
+    height: 50px;
+    line-height: 50px;
+    width: 214px;
+}
+.classify-title {
+    width: 169px;
+    color: #0091db;
+}
+.classify-icon {
+    display: inline-block;
+    margin-left: 15px;
+    margin-right: 12px;
+    vertical-align: middle;
+}
+.classify-item {
+    text-align: center;
+    color: #808080;
+}
+.classify-item.active {
+    color: #000;
+    border-top: 1px solid #0091db;
+    border-bottom: 1px solid #0091db;
+    background-color: #fff;
+    width: 215px;
+}
+.panel-title-box {
+    padding-bottom: 25px;
+    padding-top: 27px;
+    border-bottom: 2px solid #f5f5f5;
+}
+
+.panel-title{
+    color: #0392db;
+    font-size: 16px;
+    padding-left: 9px;
+    border-left: 6px solid #0392db;
+
+}
+.show-detail-container {
+    width: 863px;
+    height: 733px;
+}
+.detail-panel {
+    padding: 0 40px 0 50px;
+    width: 773px;
+    height: 733px;
+    display: none;
+}
+.detail-panel.active {
+    display: block;
+}
+.coupon-box {
+    border: 1px solid #f5f5f5;
+    margin-top: 39px;
+    height: 318px;
+}
+.coupon-classify-item {
+    display: inline-block;
+    width: 115px;
+    height: 56px;
+    line-height: 56px;
+    font-size: 16px;
+    color: #000;
+    text-align: center;
+    border-right: 1px solid #f5f5f5;
+}
+.coupon-classify-item.active {
+    background-color: #0091db;
+    color: #fff;
+}
+.coupon-status-box {
+    height: 48px;
+    background-color: #f5f5f5;
+}
+.coupon-status-item {
+    display: inline-block;
+    width: 115px;
+    height: 48px;
+    line-height: 48px;
+    color: #000;
+    text-align: center;
+}
+.coupon-status-item.active {
+    color: #0091db;
+    background-color: #edf9ff;
+}
+.coupon-detail-title,
+.coupon-detail-content{
+    height: 26px;
+    background-color: #edf9ff;
+    padding: 12px 12px 10px 18px;
+}
+.coupon-detail-content {
+    background-color: #fff;
+}
+.coupon-detail-title-item,
+.coupon-detail-content-item{
+    color: #0091db;
+    display: inline-block;
+    margin-left: 18px;
+    width: 100px;
+    height: 26px;
+    line-height: 26px;
+}
+.coupon-resource,
+.coupon-resource-data{
+    width: 110px;
+    margin-left: 0;
+    margin-right: 0;
+    text-align: right;
+}
+.coupon-detail-content-item {
+    color: #808080;
+}

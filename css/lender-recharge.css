@@ -1,0 +1,157 @@
+.item-show {
+    margin-top: 33px;
+    color: #000;
+}
+.item-main {
+    display: inline-block;
+    border-left: 3px solid #0091db;
+    font-size: 16px;
+    padding-left: 17px;
+}
+.item-name {
+    font-size:14px ;
+    padding-left: 17px;
+    color: #808080;
+}
+.item-detail-container {
+    margin-top: 30px;
+    border: 1px solid #0091db;
+    width: 1078px;
+    height: 733px;
+    font-family: Microsoft YaHei;
+}
+.classify-container {
+    background-color: #f7fafc;
+    font-size: 16px;
+    width: 214px;
+    height: 733px;
+    border-right: 1px solid #0091db;
+}
+.classify-title,
+.classify-item{
+    height: 50px;
+    line-height: 50px;
+    width: 214px;
+}
+.classify-title {
+    width: 169px;
+    color: #0091db;
+}
+.classify-icon {
+    display: inline-block;
+    margin-left: 15px;
+    margin-right: 12px;
+    vertical-align: middle;
+}
+.classify-item {
+    text-align: center;
+    color: #808080;
+}
+.classify-item.active {
+    color: #000;
+    border-top: 1px solid #0091db;
+    border-bottom: 1px solid #0091db;
+    background-color: #fff;
+    width: 215px;
+}
+.panel-title-box {
+    padding-bottom: 25px;
+    padding-top: 27px;
+    border-bottom: 2px solid #f5f5f5;
+}
+
+.panel-title{
+    color: #0392db;
+    font-size: 16px;
+    padding-left: 9px;
+    border-left: 6px solid #0392db;
+
+}
+.recharge-box {
+    margin-top: 73px;
+    padding-left: 70px;
+}
+.go-recharge {
+    display: inline-block;
+    width: 133px;
+    height: 45px;
+    -webkit-border-radius: 22px;
+    -moz-border-radius: 22px;
+    border-radius: 22px;
+    border: 1px solid #ff5607;
+    line-height: 45px;
+    font-size: 16px;
+    text-align: center;
+    color: #ff5607;
+    cursor: pointer;
+}
+.go-recharge:hover {
+    color: #ff5607;
+}
+.recharge-tip1 {
+    margin-left: 50px;
+}
+.recharge-tip2 {
+    margin-left: 100px;
+}
+.show-detail-container {
+    width: 863px;
+    height: 733px;
+}
+.detail-panel {
+    padding: 0 40px 0 50px;
+    width: 773px;
+    height: 733px;
+    display: none;
+}
+.detail-panel.active {
+    display: block;
+}
+.withdraw-remain-box  {
+    margin-top: 40px;
+
+}
+.withdraw-remain-titile {
+    font-size: 16px;
+    color: #000;
+    display: inline-block;
+    margin-right: 20px;
+}
+.withdraw-remain {
+    color: #ff5607;
+    font-size: 16px;
+}
+.withdraw-money {
+    width: 166px;
+    height: 40px;
+    font-size: 16px;
+    border: none;
+    border-bottom: 2px solid #f5f5f5;
+    margin-top: 38px;
+}
+.withdraw-to-card-box {
+    margin-top: 40px;
+}
+.withdraw-to-card-title {
+    font-size: 16px;
+    color: #000;
+    margin-right: 37px;
+}
+.withdraw-to-card-num {
+    color: #3face4;
+    font-size:16px;
+}
+.go-withdraw {
+    margin-top: 40px;
+    color: #ff5607;
+    border: 1px solid #ff5607;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    display: inline-block;
+    width: 133px;
+    height: 44px;
+    line-height: 44px;
+    text-align: center;
+    font-size: 16px;
+}
