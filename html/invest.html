@@ -1,0 +1,486 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>云钱袋</title>
+	<!-- include title -->
+	<meta name="renderer" content="webkit">
+	<meta http-equiv="Pragma" content="no-cache">
+	<meta http-equiv="Cache-Control" content="no-cache">
+	<meta http-equiv="Expires" content="0">
+	<meta name="renderer" content="webkit|ie-comp|ie-stand">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<meta name="baidu-site-verification" content="gRWttx1PTb" />
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+	<meta name="360-site-verification" content="a24b17a78f753da8564e1c75266bae10" />
+	<meta name="keywords" content="" /> 
+	<meta name="description" content="" />
+	<link type="text/css" href="../plugin/bootstrap3/css/bootstrap.min.css" rel="stylesheet" />
+	<link type="text/css" href="../css/common.css" rel="stylesheet" />
+	<script src="../plugin/jquery.min.js"></script>
+	
+	<!-- include之后 上边的可以删除掉了 -->
+	<link rel="stylesheet" href="../css/invest.css">
+	<script type="text/javascript" src="../plugin/jquery-plug/jquery.SuperSlide.2.1.1.js"></script>
+</head>
+<body>
+	<div class="wrap">
+		<div class="header">
+			<!-- <include topBar>  //此处为title -->
+			<style>
+				.topBar .wel{line-height: 40px;}
+				.topBar .tel{line-height: 40px;margin-left: 54px;padding-left: 30px;background: url(../image/topBar-tel.png) no-repeat left center;}
+				.topBar .item .list{padding: 12px 0;}
+				.topBar .item .list a{padding: 0 29px;line-height: 16px;border-right:2px solid #e1e1e1;}
+				.topBar .item .list.last a{border:none;}
+			</style>
+			<div class="topBar bg">
+				<div class="w clearfix">
+					<p class="pull-left wel">您好，欢迎访问云钱袋！</p>
+					<h5 class="pull-left tel">400-8888-8888</h5>
+					<div class="pull-right">
+						<ul class="item clearfix">
+							<li class="list pull-left">
+								<a href="">登录</a>
+							</li>
+							<li class="list pull-left">
+								<a href="">注册</a>
+							</li>
+							<li class="list pull-left">
+								<a href="">帮助中心</a>
+							</li>
+							<li class="list pull-left last">
+								<a href="">关于我们</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<!-- <include navBar>  //此处为head-->
+			<style>
+				.navBar{height: 110px;}
+				.navBar li{padding: 0 10px;}
+				.navBar li a{color: #000;font-size: 18px;padding-left: 5px;padding-right: 5px;}
+				.navBar li a:hover{color: #0091db;}
+				.navBar li.active a{color: #0091db;border-top: 2px solid #0091db;padding-top: 13px;}
+				.navBar .logo{padding-top: 32px;}
+				.navBar .pull-right{padding-top: 36px;}
+				.navBar .dropdown-toggle{background: url(../image/navBar-my.png) no-repeat 14px center;padding-left: 40px;}
+				.navBar .dropdown-toggle:hover,.navBar .nav .open>a{background: url(../image/navBar-my2.png) no-repeat 14px center;}
+				.navBar .dropdown-menu>li>a{text-align: center;}
+				.navBar .nav>li>a:focus, .nav>li>a:hover{background-color: #fff;}
+				.navBar .nav .account{font-size: 18px;}
+				.navBar .nav .open>a, .nav .open>a:focus, .nav .open>a:hover{background-color: #fff;color: #0091db;}
+				.navBar li.active .dropdown-toggle{background: url(../image/navBar-my2.png) no-repeat 14px center;}
+			</style>
+			<div class="navBar">
+				<div class="w clearfix">
+					<div class="pull-left logo">
+						<a href="">
+							<img src="../image/logo.png" alt="">
+						</a>
+					</div>
+					<div class="pull-right">
+						<ul class="nav navbar-nav">
+							<li class="active">
+								<a href="#">首页</a>
+							</li>
+							<li>
+								<a href="#about">我要出借</a>
+							</li>
+							<li>
+								<a href="#about">我要借款</a>
+							</li>
+							<li>
+								<a href="#about">风险保障</a>
+							</li>
+							<li>
+								<a href="#about">手机理财</a>
+							</li>
+							<li>
+								<a class="dropdown-toggle" data-toggle="dropdown" href="#">
+									<span class="account">我的账户</span>
+									<span class="caret"></span>
+								</a>
+								<ul class="dropdown-menu" role="menu">
+									<li><a href="#">我的账户</a></li>
+									<li><a href="#">我的理财</a></li>
+									<li><a href="#">我要充值</a></li>
+									<li><a href="#">我要提现</a></li>
+									<li><a href="#">我的借款</a></li>
+									<li class="divider"></li>
+									<li><a href="">退出登录</a></li>
+								</ul>
+
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<script>
+				$(".dropdown-toggle,.dropdown-menu").on({
+					mouseenter:function(){
+						$(".dropdown-menu").addClass("show");
+					},
+					mouseleave : function(){
+						$(".dropdown-menu").removeClass("show");
+					}
+				});
+			</script>
+		</div>
+		<div class="main">
+			<div class="content bg">
+				<div class="w">
+					<div class="lists">
+						<div class="title first-title">
+							<h3 >项目确认</h3>
+						</div>
+						<div class="list">
+							<ul class="list-group">
+								<li class="list-item">
+									<div class="top clearfix">
+										<h3 class="pull-left">定投保1</h3>
+										<div class="pull-right clearfix">
+											<span class="margin-r30">出借进度</span>
+											<div class="progress">
+												    <div class="progress-bar progress-bar-danger hot-bg" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 50%">
+													    <div class="badge hot-bg">16%
+															<div class="caret2 hot-border"></div>
+													    </div>  
+												    </div>
+												</div>
+										</div>
+									</div>
+									<div class="cen">
+										<ul class="clearfix">
+											<li class="pull-left y">
+												<p class="up"><span class="y-big">8.5</span>%</p>
+												<span>预计年化收益率</span>
+											</li>
+											<li class="pull-left d">
+												<p class="up"><span class="d-big">3</span>个月</p>
+												<span>出借期限</span>
+											</li>
+											<li class="pull-left t">
+												<p class="up"><span class="d-big">1000</span>万元</p>
+												<span>出借总金额</span>
+											</li>
+											<li class="pull-left m">
+												<p class="up"><span class="d-big">366</span>万元</p>
+												<span>剩余余额</span>
+											</li>
+											<li class="pull-left x">
+												<p class="up"><span >按月付息，到期还本</span></p>
+												<span>收益方式</span>
+											</li>
+											<li class="pull-left s">
+												<p class="up"><span >第三方投保，收益权转让</span></p>
+												<span>保障方式</span>
+											</li>
+											<li class="pull-left day1">
+												<p class="up"><span >2016-08-19</span></p>
+												<span>计息时间</span>
+											</li>
+											<li class="pull-left day2">
+												<p class="up"><span >2017-01-19</span></p>
+												<span>到期时间</span>
+											</li>
+
+										</ul>
+									</div>
+								</li>
+							</ul>
+						</div>
+						<div class="title">
+							<h3 >出借确认</h3>
+						</div>
+						<div class="list">
+							<ul class="list-group">
+								<li class="list-item clearfix">
+									<ul class="pull-left invest-text">
+										<li>账户余额：<span class="invest-login red">3435元</span> <span class="invest-login hidden"><a class="blue" href="#">登录</a>后可见</span> <a class="invest-recharge" href="#">充值</a></li>
+										<li class="black">请输入出借金额：<div class="invest-input"><input value="可投金额：  3435元" type="text"></div></li>
+										<li>预计收益：<span class="red">456元</span></li>
+									</ul>
+									<div class="pull-left invest-discount">
+										<div class="invest-select">无可用现金券</div>
+										<div class="invest-select">无可用加息劵</div>
+									</div>
+									<div class="pull-left invest-btn">
+										<button type="button">立即出借</button>
+
+									</div>
+								</li>
+							</ul>
+						</div>
+						<div class="title">
+							<h3 >项目描述</h3>
+						</div>
+						<div class="list">
+							<div class="describe-text">
+								<ul class="nav nav-tabs">
+								  <li class="active"><a href="#">项目详情</a></li>
+								  <li><a href="#business">企业信息</a></li>
+								  <li><a href="#audit">审核信息</a></li>
+								  <li><a href="#mortgage">抵押信息</a></li>
+								  <li><a href="#lend">出借记录</a></li>
+								</ul>
+								<div class="describe-content">
+									<h5>企业信息：</h5>
+									<p>借款企业为北京某商贸有限公司成立于2001年。为某国有旅行社最大股东，现有资产11310万元，固定资产原值4651万元，资产负债率60%。项目坐落于安徽省黄山市黄山区境内的饶村，世界级风景名胜区——黄山的北麓，是当地谭氏望族的一座宅院。整个建筑风格为典型的徽州古式建筑，在建筑上将徽州传统的砖雕、木雕、石雕等高超技艺融为一体，整个建筑群风格古朴典雅，彰显出文化底蕴丰厚的徽派建筑特点。大院占地近2000平方米，大门朝东。有别于坐北朝南传统的建筑格式，颇为特别，传与古代风水学有关。目前该建筑已被列为黄山市“百村千幢”徽州古建筑重点保护工程项目之一。大院所在地交通便利，北距黄山区新城区3公里，有新修的三口到饶村公路东西向贯穿于村庄南部。南距黄山风景区北大门8公里，有三饶公路接甘棠（黄山区城区）至黄山芙蓉岭的上山 公路相通。大院北距合肥机场约270公里，有京台高速全程相连；东距南京约300公里，有沿江高速接京台高速相连；南距黄山机场、火车站约100公里，亦是京台高速相连。黄山区每天都有直达合肥、南京、芜湖、屯溪、杭州、上海等地的直达客运班车，交通疏散十分便利。</p>
+       								<h5>借款用途：</h5>
+       								<p>       徽派文化旅游大院建设项目总共分三大部分：徽派旅游大院项目前期建设、项目装修、补充项目流动资金。项目规划占地面积33亩（折合22000平方米），其中总建筑面积5500平方米。分三期建设。</p>
+       								<h5>项目优势：</h5>
+       								<p>本项目的投资收益主要来源于徽派旅游文化谭家大院营业收入及借款方旗下某酒店营业收入；有国企作为担保方；项目运营人（国企旅行社）具有丰富的旅游项目及运营经验；项目建设周期短；2个月后即可投入运营。</p>
+								</div>
+								<div class="describe-title">
+									<h4 id="business">企业信息：</h4>
+								</div>
+								<div class="describe-content">
+									<h5>企业名称：北京某商贸有限公司</h5>
+								</div>
+								<div class="describe-title">
+									<h4 id="audit">审核信息</h4>
+								</div>
+								<div class="describe-audit">
+									<ul>
+										<li>
+											<span class="audit-l">审核项目</span><span class="audit-c">审核状态</span><span class="audit-r">审核时间</span>
+										</li>	
+										<li class="odd">
+											<span class="audit-l">是否验证企业名称</span><span class="audit-c">√</span><span class="audit-r">2016-09-01</span>
+										</li>
+										<li >
+											<span class="audit-l">是否验证企业名称</span><span class="audit-c">√</span><span class="audit-r">2016-09-01</span>
+										</li>	
+										<li class="odd">
+											<span class="audit-l">是否验证企业名称</span><span class="audit-c">√</span><span class="audit-r">2016-09-01</span>
+										</li>
+										<li >
+											<span class="audit-l">是否验证企业名称</span><span class="audit-c">√</span><span class="audit-r">2016-09-01</span>
+										</li>	
+										<li class="odd">
+											<span class="audit-l">是否验证企业名称</span><span class="audit-c">√</span><span class="audit-r">2016-09-01</span>
+										</li>
+										<li >
+											<span class="audit-l">是否验证企业名称</span><span class="audit-c">√</span><span class="audit-r">2016-09-01</span>
+										</li>	
+										<li class="odd">
+											<span class="audit-l">是否验证企业名称</span><span class="audit-c">√</span><span class="audit-r">2016-09-01</span>
+										</li>
+										<li >
+											<span class="audit-l">是否验证企业名称</span><span class="audit-c">√</span><span class="audit-r">2016-09-01</span>
+										</li>
+									</ul>	
+								</div>
+								<div class="describe-title">
+									<h4 id="mortgage">抵押信息</h4>
+								</div>
+								<div class="describe-content clearfix">
+									<div class="picScroll-left">
+										<div class="slideGroup" style="margin:0 auto">
+											<div class="parBd">
+												<div class="slideBox">
+													<a class="sPrev" href="javascript:void(0)"></a>
+													<ul>
+														<li>
+															<div class="pic"><a href="JavaScript:void(0);" target="_blank"><img src="../image/img/dy.png" /></a></div>
+														</li>
+														<li>
+															<div class="pic"><a href="JavaScript:void(0);" target="_blank"><img src="../image/img/dy.png" /></a></div>
+														</li>
+														<li>
+															<div class="pic"><a href="JavaScript:void(0);" target="_blank"><img src="../image/img/dy.png" /></a></div>
+														</li>
+														<li>
+															<div class="pic"><a href="JavaScript:void(0);" target="_blank"><img src="../image/img/dy.png" /></a></div>
+														</li>
+														<li>
+															<div class="pic"><a href="JavaScript:void(0);" target="_blank"><img src="../image/img/dy.png" /></a></div>
+														</li>
+														<li>
+															<div class="pic"><a href="JavaScript:void(0);" target="_blank"><img src="../image/img/dy.png" /></a></div>
+														</li>
+														<li>
+															<div class="pic"><a href="JavaScript:void(0);" target="_blank"><img src="../image/img/dy.png" /></a></div>
+														</li>
+														<li>
+															<div class="pic"><a href="JavaScript:void(0);" target="_blank"><img src="../image/img/dy.png" /></a></div>
+														</li>
+													</ul>
+													<a class="sNext" href="javascript:void(0)"></a>
+												</div>
+
+											</div>
+										</div>
+
+
+									</div>
+
+								</div>
+								<div class="describe-title">
+									<h4 id="lend">出借记录</h4>
+								</div>
+								<div class="describe-audit">
+									<ul>
+										<li>
+											<span class="audit-r">出借人</span><span class="audit-c">出借金额</span><span class="audit-l">出借日期</span>
+										</li>	
+										<li class="odd">
+											<span class="audit-r">153*4</span><span class="audit-c">4434</span><span class="audit-l">2016-09-12</span>
+										</li>
+										<li >
+											<span class="audit-r">153*4</span><span class="audit-c">4434</span><span class="audit-l">2016-09-12</span>
+										</li>	
+										<li class="odd">
+											<span class="audit-r">153*4</span><span class="audit-c">4434</span><span class="audit-l">2016-09-12</span>
+										</li>
+										<li >
+											<span class="audit-r">153*4</span><span class="audit-c">4434</span><span class="audit-l">2016-09-12</span>
+										</li>		
+										<li class="odd">
+											<span class="audit-r">153*4</span><span class="audit-c">4434</span><span class="audit-l">2016-09-12</span>
+										</li>
+										<li >
+											<span class="audit-r">153*4</span><span class="audit-c">4434</span><span class="audit-l">2016-09-12</span>
+										</li>		
+										<li class="odd">
+											<span class="audit-r">153*4</span><span class="audit-c">4434</span><span class="audit-l">2016-09-12</span>
+										</li>
+										<li >
+											<span class="audit-r">153*4</span><span class="audit-c">4434</span><span class="audit-l">2016-09-12</span>
+										</li>		
+										
+									</ul>	
+								</div>
+
+							</div>
+						</div>
+						<div>
+
+						</div>
+						
+						<div class="clearfix financing-foot-nav">
+							<span class="foot-nav foot-nav-top hidden">
+								<a class="long" href="#">上一页</a>
+								<a href="#">首页</a>
+							</span>
+							<span class="foot-nav-more hidden">...</span>
+							<ul>
+								<li class="active"><a href="#">1</a></li>
+								<li><a href="#">2</a></li>
+								<li><a href="#">3</a></li>
+								<li><a href="#">4</a></li>
+								<li><a href="#">5</a></li>
+							</ul>
+							<span class="foot-nav-more">...</span>
+							<span class="foot-nav foot-nav-down">
+								<a href="#">尾页</a>
+								<a class="long" href="#">下一页</a>
+							</span>
+						</div>
+
+					</div>
+
+				</div>
+				
+			</div>
+		</div>
+		<div class="footer">
+			<style>
+				.footer .f_cooperation {  width: 100%;  height: 83px;  background: #fffdfd;  }
+				.footer .f_cooperation .w{  height:83px;  padding:19px 30px;  box-sizing:border-box;  overflow: hidden;  }
+				.footer .f_cooperation .w span{  display: inline-block;  height:45px;  width:133px;  font-size: 20px;  line-height: 45px;  vertical-align: top;  }
+				.footer .f_cooperation .w img{margin-right:30px;}
+			</style>
+			<div class="f_cooperation">
+				<div class="w">
+					<span>合作机构：</span>
+					<img src="../image/footer/a1.jpg">
+					<img src="../image/footer/a2.jpg">
+					<img src="../image/footer/a3.jpg">
+					<img src="../image/footer/a4.jpg">
+					<img src="../image/footer/a5.jpg">
+					<img src="../image/footer/a6.jpg">
+				</div>
+			</div>
+			<style>
+				.footer .f_information {  width: 100%;  height: 210px;  background: #363b3f;  }
+				.footer .f_information .w{position:relative;}
+				/*导航*/
+				.footer .f_main{  width:100%;  height:140px;  color：#919191;  }
+				.footer .f_main_l{  float:left;  width:630px;  height:140px;  }
+				.footer .f_main_l ul{  width:322px;  height:140px;  padding:19px 0;  border-right: 1px dashed #666;  box-sizing:border-box;  }
+				.footer .f_main_l ul li{  width: 100%;  height:34px;  line-height: 34px;  font-size: 16px;  text-align: center;  }
+				/*联系信息*/
+				.footer .f_main_r{  float:left;  width:450px;  height:140px;  }
+				.footer .f_main_r ul{  width:450px;  height:140px;  padding:10px 0;  box-sizing:border-box;  }
+				.footer .f_main_r ul li{  width: 100%;  height:30px;  line-height: 30px;  font-size: 16px;  text-align: left;  }
+				.footer .f_text{  width:100%;  height:70px;  text-align: center;  line-height: 50px;  font-size: 16px;  font-weight: normal;  }
+				/*提示遮罩*/
+				.footer .cover{  position: absolute;  top: 0;  left: 0;  width:100%;  height:42px;  background: url(../image/f_bg.png) repeat-x;  color:#fff;  text-align: center;  line-height: 42px;  font-size: 14px;  }
+				.footer .close {  margin-left: 15px;  vertical-align: text-bottom;  display: inline-block;  width: 14px;  height: 14px;  background: url(../image/close.png) no-repeat center;  }
+				.footer .hidden{  display:none;  }
+			</style>
+			<div class="f_information">
+				<div class="w ">
+					<div class="f_main">
+						<div class="f_main_l">
+							<ul>
+								<li>关于我们</li>
+								<li>风险保障</li>
+								<li>帮助中心</li>
+							</ul>
+						</div>
+						<div class="f_main_r">
+							<ul>
+								<li>联系我们 （9:00-18:00，仅工作日）</li>
+								<li>客服电话：400-XXX-XXXX</li>
+								<li>服务邮箱：XXX@XXX.com</li>
+								<li>总部地址：XXXXXXXXXXXXXXXXXXXXXXXX </li>
+							</ul>
+						</div>
+					</div>
+					<p class="f_text">CopyRight C 2014-2015.All Rights Reserved 京ICP备00000000号</p>
+					<div class="cover">
+						温馨提示：出借有风险，选择需谨慎；平台建议的评价出借回报率仅供出借人参考，不代表未来实际收益。
+						<span onclick="closeicon()" class="close"></span>
+					</div>
+
+				</div>
+			</div>
+			<script type="text/javascript">
+				function closeicon(){
+					document.querySelector(".cover").setAttribute("class","hidden");
+				}
+			</script>
+
+			<!-- <include cooperation>  //此处为合作单位 -->
+			<!-- <include information>  //此处为底部-->
+		</div>
+		<div class="bayWindow">
+			<ul>
+				<li>
+					<a href=""></a>
+				</li>
+				<li>
+					<a href=""></a>
+				</li>
+				<li>
+					<a href=""></a>
+				</li>
+				<li>
+					<a href=""></a>
+				</li>
+			</ul>
+		</div>
+	</div>
+</body>
+<!-- <script src="../plugin/jquery-plug/slider.js"></script> -->
+<!-- <script src="../js/index.js"></script> -->
+<script type="text/javascript">
+	jQuery(".slideGroup .slideBox").slide({ mainCell:"ul",vis:4,prevCell:".sPrev",nextCell:".sNext",effect:"leftLoop"});
+</script>
+
+
+</html>
