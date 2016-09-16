@@ -1,0 +1,108 @@
+.main{
+    padding-bottom: 60px;
+}
+.title{
+    padding: 30px 0;
+}
+.title h4{
+    font-size: 16px;
+    padding-left: 16px;
+    border-left:2px solid #0091db ;
+}
+.a-container{
+    border: 1px solid #0091db;
+    background: #ffffff;
+}
+.a-l{
+    width: 214px;
+    background: #f7fafc;
+}
+.a-l dt{
+    height: 50px;
+}
+.a-l dt h4{
+    line-height: 50px;
+    padding-left: 52px;
+    background: url("../image/about.png") no-repeat 10px center;
+}
+.nav>li>a{
+    text-align: center;
+    line-height: 28px;
+    border-top:1px solid #f7fafc;
+    border-bottom: 1px solid #f7fafc;
+}
+.nav-stacked>li+li{
+    margin: 0;
+}
+.nav>li.active{
+    position: relative;
+    left:2px;
+    background: #fff;
+}
+.nav>li.active>a{
+    background: #fff;
+    position: relative;
+    left: -2px;px;
+    border-top:1px solid #0091db;
+    border-bottom:1px solid #0091db;
+}
+.a-r{
+    border-left: 1px solid #0091db;
+    width:755px;
+    padding-left: 54px;
+}
+.a-r-t{
+    padding-top: 25px;
+    padding-bottom: 20px;
+    font-size: 16px;
+    line-height: 1.2;
+}
+.t-progress{
+    height: 3px;
+}
+.t-progress .progress-bar-info{
+    background: #0091db;
+}
+/*公司简介*/
+.mb30{
+    margin-bottom: 30px;
+}
+.l-progress{
+    height: 32px;
+    border-radius: 0;
+    margin-bottom: 0;
+}
+.l-progress .progress-bar-info{
+    background: #3dc0f6;
+    line-height: 32px;
+    font-size: 16px;
+}
+.com_cont {
+    padding: 30px 0;
+    color: #666;
+}
+.com_cont p {
+    text-indent: 2em;
+    line-height: 30px;
+}
+.tab-7-2 {
+    border-collapse: collapse;
+}
+.tab-7-2 td {
+    border: 1px solid #ededed;
+    padding: 5px 0;
+}
+.company-profile-img{
+    width: 760px;
+}
+.company-profile-img li {
+    float: left;
+    margin-right: 20px;
+}
+.company-profile-img li span {
+    display: block;
+    text-align: center;
+}
+.company-profile-img li.last{
+    margin-right: 0;
+}
