@@ -149,12 +149,21 @@
     color: #000;
 }
 .account-detail-query {
-    height: 92px;
-    line-height: 92px;
+    padding-top: 28px;
+    height: 64px;
+    font-size: 0;
+}
+.account-detail-query-title {
+    display: inline-block;
     font-size: 16px;
+    color: #000;
+    vertical-align: middle;
 }
 .query-time {
-    margin-left: 160px;
+    margin-left: 150px;
+    display: inline-block;
+    vertical-align:middle;
+    
 }
 .query-time-title {
     margin-left: 14px;
@@ -169,6 +178,7 @@
     cursor: pointer;
 }
 .query-btn {
+    display: inline-block;
     width: 88px;
     height: 33px;
     line-height: 33px;
@@ -176,9 +186,9 @@
     color: #0392db;
     border: 1px solid #0392db;
     font-size: 14px;
-    vertical-align: middle;
     background-color: #fff;
-    margin-top: 28px;
+    margin-left: 20px;
+    vertical-align: middle;
 }
 .account-detail-show {
     color: #808080;
