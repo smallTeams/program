@@ -208,7 +208,10 @@ i{
     height:70px;
 }
 /*媒体报道详情*/
-.mediaDetails .a-r-t:before{
+.mediaDetails .a-r-t a{
+    font-size: 16px;
+}
+.mediaDetails .a-r-t a:before{
     content: "";
     display: inline-block;
     width: 19px;
