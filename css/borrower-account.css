@@ -168,6 +168,7 @@
     height: 33px;
     width: 175px;
     border: 1px solid #0392db;
+    cursor: pointer;
 }
 .query-btn {
     width: 88px;

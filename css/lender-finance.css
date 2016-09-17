@@ -148,6 +148,7 @@
 .detail-choose-input {
     width: 130px;
     height: 25px;
+    cursor: pointer;
 }
 .detail-choose-btn {
     width: 82px;

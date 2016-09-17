@@ -24,3 +24,20 @@
 	<include cooperation  
 	<include information  
 </div>
+
+页面对照
+borrower-account.html         借款人我的账户界面;
+borrower-recharge.html        借款人充值界面；
+borrower-withdraw.html        借款人提现界面；
+borrower-information.html     借款人个人资料界面；
+borrower-loan.html            借款人我的借款界面；
+borrower-repayment.html       借款人我的还款界面；
+
+lender-account.html           出借人我的账户界面;
+lender-recharge.html          出借人充值界面；
+lender-withdraw.html          出借人提现界面；
+lender-information.html       出借人个人资料界面；
+lender-finance.html           出借人我的理财界面；
+lender-activity.html          出借人活动中心界面；
+lender-coupon.html            出借人我的礼券界面；
+lender-invitation.html        出借人邀请好友界面；

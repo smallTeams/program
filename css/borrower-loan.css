@@ -102,6 +102,7 @@
     line-height: 32px;
     width: 200px;
     display: inline-block;
+    cursor: pointer;
 }
 .loan-filter-btn {
     display: inline-block;

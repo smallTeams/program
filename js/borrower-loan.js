@@ -30,5 +30,9 @@ $(function () {
         }else {
             $(item).css('backgroundColor','#f1f4f6');
         }
+    });
+    $('.loan-detail-choose-box').on('click','.loan-detail-choose-item', function () {
+        $('.loan-detail-choose-item').removeClass('active');
+        $(this).addClass('active');
     })
 })

@@ -173,6 +173,7 @@
     display: inline-block;
     height: 32px;
     width: 180px;
+    cursor: pointer;
 }
 .invitation-record-query {
     display: inline-block;
