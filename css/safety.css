@@ -1,0 +1,87 @@
+
+
+.safetypage{
+    position:relative;
+    height:405px;
+    overflow:hidden;
+    background:url("../image/loading.gif") 50% no-repeat;
+}
+.safetypage .safetypage-content{
+    position: relative;
+    top: 0;
+    right: 0;
+    height: 405px;
+}
+.safetypage .safetypage-content .banner-bg{
+    display: block;
+    width: 100%;
+    height: 100%;
+    background: url(../image/safetybanner.jpg) no-repeat 50% 0;
+}
+
+.w {
+    width: 1080px;
+    margin: 0 auto;
+}
+.list .list-item {
+    background: #fff;
+    width: 100%;
+}
+.list .list-item.f1{
+    height:460px;
+    background: url(../image/safety-bg1.jpg) no-repeat center bottom;
+
+}
+.list .list-item.f2{
+    height:437px;
+    background: url(../image/safety-bg2.jpg) no-repeat center bottom;
+
+}
+.list .list-item.f3{
+    height:370px;
+}
+.list .list-center{
+    margin:0 auto;
+    width:580px;
+    padding-top:50px;
+}
+.list .list-center h2{
+    font-size: 48px;
+    line-height: 48px;
+    color:#0091db;
+    margin-bottom: 40px;
+    text-align: center;
+}
+.list .f3 .list-center {
+    width:880px;
+}
+.list  .list-center h3{
+    font-size: 26px;
+    line-height: 26px;
+    color:#333;
+    margin-bottom: 24px;
+    text-align: center;
+}
+.list .list-center h4{
+    font-size: 16px;
+    line-height: 16px;
+    color:#666;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.list .f3 .list-center p{
+    font-size: 16px;
+    line-height: 70px;
+    color:#999;
+}
+.list .f3 .list-center p:before{
+    content: "";
+    display: inline-block;
+    width:40px;
+    height:70px;
+    margin-right:25px;
+    font-size: 16px;
+    vertical-align: top;
+    color:#999;
+    background: url(../image/icon-medal.png) no-repeat center center;
+}
