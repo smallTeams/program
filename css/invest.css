@@ -65,6 +65,9 @@
     border-radius: 4px;
     position: relative;
 }
+.lists .hot-bg {
+    background: #ed1a00;
+}
 .lists .badge{
     position: absolute;
     bottom: 10px;
