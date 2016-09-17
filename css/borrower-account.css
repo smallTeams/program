@@ -33,6 +33,10 @@
     line-height: 50px;
     width: 214px;
 }
+
+.classify-item a{
+    font-size: 16px;
+}
 .classify-title {
     width: 169px;
     color: #0091db;
@@ -47,9 +51,6 @@
 .classify-item {
     text-align: center;
     color: #808080;
-}
-.classify-item a{
-    font-size: 16px;
 }
 .classify-item.active {
     color: #000;
@@ -111,24 +112,26 @@
 }
 .account-money {
     padding: 44px 0 36px 40px;
-    font-size: 14px;
+    font-size: 0;
     border-bottom: 1px solid #ff5607;
     color: #808080;
 }
 .account-money-total-container,
-.account-money-yesterday-container {
+.account-money-loan-container {
     display: inline-block;
     width: 175px;
-    height: 146px;
-    border-right: 1px solid #f5f5f5;
-}
-.account-money-total-container {
-    padding-top: 46px;
     height: 100px;
+    border-right: 1px solid #f5f5f5;
+    padding-top: 46px;
     vertical-align: top;
 }
-.account-money-yesterday-container {
+
+.account-money-loan-container {
     text-align: center;
+}
+.account-money-loan-container span {
+    display: block;
+    vertical-align: middle;
 }
 .account-money-total {
     font-size: 34px;
@@ -136,7 +139,6 @@
 }
 
 .account-money-income-container {
-    border-bottom: 1px solid #f5f5f5;
     width: 180px;
     height: 73px;
 }

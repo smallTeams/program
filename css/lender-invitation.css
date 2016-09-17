@@ -36,6 +36,7 @@
 .classify-title {
     width: 169px;
     color: #0091db;
+    font-size: 16px;
 }
 .classify-icon {
     display: inline-block;
@@ -46,6 +47,9 @@
 .classify-item {
     text-align: center;
     color: #808080;
+}
+.classify-item a {
+    font-size: 16px;
 }
 .classify-item.active {
     color: #000;
@@ -153,6 +157,7 @@
     color: #000;
     border-right: 1px solid #f5f5f5;
     display: inline-block;
+    cursor: pointer;
 }
 .invitation-record-choose-item.active {
     color: #fff;

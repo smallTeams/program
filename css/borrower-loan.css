@@ -48,7 +48,7 @@
     text-align: center;
     color: #808080;
 }
-.classify-item a{
+.classify-item a {
     font-size: 16px;
 }
 .classify-item.active {
@@ -84,27 +84,95 @@
 .detail-panel.active {
     display: block;
 }
-.activity-detail-box {
-    border: 1px solid #f5f5f5;
-    height: 215px;
-    margin-top: 12px;
+.loan-time-filter {
+    margin-top: 44px;
+    margin-bottom: 40px;
 }
-.activity-detail-title {
-    background-color: #edf9ff;
+.loan-filter-title{
     height: 32px;
-    padding: 8px 32px;
+    line-height: 32px;
+    color: #000;
+    font-size: 16px;
 }
-.activity-detail-title-item {
+.loan-time-box {
+    display: inline-block;
+}
+.detail-choose-input {
+    height: 32px;
+    line-height: 32px;
+    width: 200px;
+    display: inline-block;
+}
+.loan-filter-btn {
     display: inline-block;
     height: 32px;
     line-height: 32px;
-    margin-left: 10px;
+    width: 88px;
+    text-align: center;
+    color: #0091db;
+    border: 1px solid #0091db;
+    font-size: 14px;
+    background-color: #fff;
+    margin-left: 50px;
+    cursor: pointer;
+}
+.loan-detail-box {
+    border: 1px solid #f5f5f5;
+}
+.loan-detail-choose-box {
+    height: 50px;
+    font-size: 0;
+}
+.loan-detail-choose-item {
+    display: inline-block;
+    height: 50px;
+    line-height: 50px;
+    width: 115px;
+    border-right:1px solid #f5f5f5;
     font-size: 16px;
+    color: #000;
+    text-align: center;
+    cursor: pointer;
+}
+.loan-detail-choose-item.active {
+    background-color: #0091db;
+    color: #fff;
+}
+.loan-detail-show-title {
+    background-color: #edf9ff;
+    font-size: 0;
+    height: 48px;
+}
+.loan-detail-show-title-item {
+    display: inline-block;
+    width: 20%;
+    text-align: center;
+    height: 48px;
+    line-height: 48px;
+    color: #0091db;
+    font-size: 16px;
+}
+.loan-detail-show {
+    font-size: 0;
+    height: 48px;
+}
+.loan-detail-show-item {
+    display: inline-block;
+    font-size: 14px;
+    width: 20%;
+    text-align: center;
+    height: 48px;
+    line-height: 48px;
+    color: #666;
+}
+.loan-contract {
     color: #0091db;
 }
-.activity-name {
-    width: 166px;
+.pagination .loan-pagination-item>a {
+    margin-right: 9px;
+    color: #808080;
 }
-.activity-time {
-    width: 118px;
+.pagination .loan-pagination-item.active>a {
+    color: #fff;
+    background-color: #0091db;
 }

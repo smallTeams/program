@@ -48,7 +48,7 @@
     text-align: center;
     color: #808080;
 }
-.classify-item a{
+.classify-item a {
     font-size: 16px;
 }
 .classify-item.active {
@@ -71,6 +71,33 @@
     border-left: 6px solid #0392db;
 
 }
+.recharge-box {
+    margin-top: 73px;
+    padding-left: 70px;
+}
+.go-recharge {
+    display: inline-block;
+    width: 133px;
+    height: 45px;
+    -webkit-border-radius: 22px;
+    -moz-border-radius: 22px;
+    border-radius: 22px;
+    border: 1px solid #ff5607;
+    line-height: 45px;
+    font-size: 16px;
+    text-align: center;
+    color: #ff5607;
+    cursor: pointer;
+}
+.go-recharge:hover {
+    color: #ff5607;
+}
+.recharge-tip1 {
+    margin-left: 50px;
+}
+.recharge-tip2 {
+    margin-left: 100px;
+}
 .show-detail-container {
     width: 863px;
     height: 733px;
@@ -84,27 +111,42 @@
 .detail-panel.active {
     display: block;
 }
-.activity-detail-box {
+.repayment-detail-box {
+    margin-top: 50px;
     border: 1px solid #f5f5f5;
-    height: 215px;
-    margin-top: 12px;
 }
-.activity-detail-title {
+.repayment-detail-box-title,
+.repayment-detail-show{
+    height: 48px;
+    font-size: 0;
+}
+.repayment-detail-box-title {
     background-color: #edf9ff;
-    height: 32px;
-    padding: 8px 32px;
 }
-.activity-detail-title-item {
+.repayment-detail-title-item {
     display: inline-block;
-    height: 32px;
-    line-height: 32px;
-    margin-left: 10px;
-    font-size: 16px;
+    width: 25%;
+    text-align: center;
+    height: 48px;
+    line-height: 48px;
     color: #0091db;
+    font-size: 16px;
 }
-.activity-name {
-    width: 166px;
+.repayment-detail-show-item {
+    display: inline-block;
+    width: 25%;
+    text-align: center;
+    height: 48px;
+    line-height: 48px;
+    color: #0091db;
+    font-size: 14px;
+    color: #666;
 }
-.activity-time {
-    width: 118px;
+.pagination .repayment-pagination-item>a {
+    margin-right: 9px;
+    color: #808080;
+}
+.pagination .repayment-pagination-item.active>a {
+    color: #fff;
+    background-color: #0091db;
 }

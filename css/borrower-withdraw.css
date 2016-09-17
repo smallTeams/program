@@ -48,8 +48,8 @@
     text-align: center;
     color: #808080;
 }
-.classify-item a{
-    font-size: 16px;
+.classify-item a {
+    font-size:16px;
 }
 .classify-item.active {
     color: #000;
@@ -84,27 +84,51 @@
 .detail-panel.active {
     display: block;
 }
-.activity-detail-box {
-    border: 1px solid #f5f5f5;
-    height: 215px;
-    margin-top: 12px;
+.withdraw-remain-box  {
+    margin-top: 40px;
+
 }
-.activity-detail-title {
-    background-color: #edf9ff;
-    height: 32px;
-    padding: 8px 32px;
-}
-.activity-detail-title-item {
-    display: inline-block;
-    height: 32px;
-    line-height: 32px;
-    margin-left: 10px;
+.withdraw-remain-titile {
     font-size: 16px;
-    color: #0091db;
+    color: #000;
+    display: inline-block;
+    margin-right: 20px;
 }
-.activity-name {
+.withdraw-remain {
+    color: #ff5607;
+    font-size: 16px;
+}
+.withdraw-money {
     width: 166px;
+    height: 40px;
+    font-size: 16px;
+    border: none;
+    border-bottom: 2px solid #f5f5f5;
+    margin-top: 38px;
 }
-.activity-time {
-    width: 118px;
+.withdraw-to-card-box {
+    margin-top: 40px;
+}
+.withdraw-to-card-title {
+    font-size: 16px;
+    color: #000;
+    margin-right: 37px;
+}
+.withdraw-to-card-num {
+    color: #3face4;
+    font-size:16px;
+}
+.go-withdraw {
+    margin-top: 40px;
+    color: #ff5607;
+    border: 1px solid #ff5607;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    display: inline-block;
+    width: 133px;
+    height: 44px;
+    line-height: 44px;
+    text-align: center;
+    font-size: 16px;
 }

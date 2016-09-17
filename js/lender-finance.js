@@ -28,5 +28,12 @@ $(function () {
     $('.finance-detial-choose').on('click','.detail-choose-item', function () {
         $('.detail-choose-item').removeClass('active');
         $(this).addClass('active');
+    });
+    $.each($('.finance-detai-show'), function (index,item) {
+        if(index%2==0){
+            $(item).css('backgroundColor','#fff');
+        }else {
+            $(item).css('backgroundColor','#f1f4f6');
+        }
     })
 })

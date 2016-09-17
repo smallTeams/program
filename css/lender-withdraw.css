@@ -36,6 +36,7 @@
 .classify-title {
     width: 169px;
     color: #0091db;
+    font-size: 16px;
 }
 .classify-icon {
     display: inline-block;
@@ -46,6 +47,9 @@
 .classify-item {
     text-align: center;
     color: #808080;
+}
+.classify-item a {
+    font-size: 16px;
 }
 .classify-item.active {
     color: #000;

@@ -48,7 +48,7 @@
     text-align: center;
     color: #808080;
 }
-.classify-item a{
+.classify-item a {
     font-size: 16px;
 }
 .classify-item.active {
@@ -84,27 +84,72 @@
 .detail-panel.active {
     display: block;
 }
-.activity-detail-box {
-    border: 1px solid #f5f5f5;
-    height: 215px;
-    margin-top: 12px;
+.information-identify-box {
+    margin-top: 30px;
 }
-.activity-detail-title {
-    background-color: #edf9ff;
-    height: 32px;
-    padding: 8px 32px;
+.information-identify-titile {
+    font-size: 16px;
+    color: #ff0000;
 }
-.activity-detail-title-item {
-    display: inline-block;
-    height: 32px;
-    line-height: 32px;
+.information-user-box {
+    margin-top: 23px;
+    padding-bottom: 30px;
+    border-bottom: 2px solid #f5f5f5;
+}
+.information-user-name ,
+.information-user-ID {
     margin-left: 10px;
     font-size: 16px;
-    color: #0091db;
 }
-.activity-name {
-    width: 166px;
+.information-user-name-input,
+.information-user-ID-input {
+    display: inline-block;
+    padding-left: 10px;
+    width: 200px;
+    height: 41px;
 }
-.activity-time {
-    width: 118px;
+.information-user-search {
+    display: inline-block;
+    width: 110px;
+    height: 41px;
+    line-height: 41px;
+    border: 1px solid #0392db;
+    color: #0392db;
+    text-align: center;
+    margin-left: 30px;
+    background-color: #fff;
+}
+.information-detail-item {
+    width: 100%;
+    margin-top: 33px;
+}
+.detail-item-title {
+    display: inline-block;
+    font-size: 16px;
+    width: 80px;
+    text-align: right;
+    margin-right: 29px;
+    color: #808080;
+}
+.detail-item-content {
+    display: inline-block;
+    width: 98px;
+    color: #000;
+    font-size: 16px;
+    text-align: left;
+}
+.detail-item-change-button {
+    display: inline-block;
+    margin-left: 150px;
+    width: 163px;
+    height: 44px;
+    line-height: 44px;
+    text-align: center;
+    border: 1px solid #ff5607;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    color: #ff5607;
+    font-size: 14px;
+    background-color: #fff;
 }
