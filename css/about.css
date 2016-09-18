@@ -259,7 +259,9 @@ i{
 .announcement-detail-item {
     border-bottom: 1px solid #f5f5f5;
 }
-
+.announcement-detail-item>a {
+    display: block;
+}
 .announcement-item-content {
     color: #333;
 }
