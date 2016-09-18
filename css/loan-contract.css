@@ -1,0 +1,126 @@
+.wrap {
+    background-color: #f5f5f5;
+}
+.lc-title-box {
+    padding-top: 32px;
+}
+.lc-title {
+    font-size: 16px;
+    color: #808080;
+    padding-left: 15px;
+    border-left: 3px solid #0091DB;
+}
+.lc-content {
+    background-color: #fff;
+    margin-top: 18px;
+    padding: 52px 60px;
+}
+.lc-content-title {
+    color: #0091DB;
+    font-size: 24px;
+    text-align: center;
+}
+.lc-content-tips-box {
+    margin-top: 12px;
+}
+.lc-content-tips {
+    font-size: 14px;
+    color: #666;
+}
+.lc-participant-partyA-box ,
+.lc-participant-partyB-box ,
+.lc-participant-partyC-box {
+    margin-top: 38px;
+}
+.partyA-title,
+.partyA,
+.partyB-title,
+.partyB,
+.partyC-title,
+.partyC{
+    color: #333;
+    font-size: 18px;
+}
+table.partyA-table ,
+table.breach-of-contract-damages{
+    font-family: verdana,arial,sans-serif;
+    font-size:16px;
+    color:#333333;
+    border-width: 1px;
+    border-color: #666666;
+    border-collapse: collapse;
+    margin-top: 20px;
+    display: block;
+    width: 100%;
+}
+table.partyA-table th,
+table.partyA-table  td,
+table.breach-of-contract-damages th,
+table.breach-of-contract-damages  td{
+    border-width: 1px;
+    border-style: solid;
+    border-color: #666666;
+    text-align: center;
+    width: 159px;
+    height: 40px;
+    line-height: 40px;
+}
+.partyA-table-tips {
+    color: #666;
+    line-height: 3;
+}
+.lc-content-text-tips {
+    margin-top: 33px;
+    color: #333;
+}
+.lc-content-text-title {
+    margin-top: 30px;
+    color: #333;
+    
+}
+.lc-content-text {
+    margin-top: 30px;
+    color: #666;
+    line-height: 2;
+    text-align: justify;
+}
+.lc-content-text-next {
+    padding-left: 2em;
+    margin-top: 20px;
+    color: #666;
+    line-height: 2;
+    text-align: justify;
+}
+.lc-detail-table {
+    margin-top: 20px;
+    border: 1px solid #666;
+    border-bottom: 0;
+    width: 351px;
+}
+.lc-content-table-item {
+    height: 39px;
+    border-bottom: 1px solid #666;
+    font-size: 0;
+    width: 351px;
+}
+.lc-item-title {
+    display: inline-block;
+    line-height: 39px;
+    height: 39px;
+    width: 150px;
+    text-align: center;
+    border-right: 1px solid #666;
+    vertical-align: top;
+    color: #333;
+}
+.lc-item-text {
+    display: inline-block;
+    width: 200px;
+    height: 39px;
+    line-height: 39px;
+    color: #333;
+}
+.lc-detail-table-tips ,
+.breach-of-contract-damages-tips{
+    line-height: 3;
+}
