@@ -20,7 +20,7 @@
 	<script src="../plugin/jquery.min.js"></script>
 	
 	<!-- include之后 上边的可以删除掉了 -->
-	<link rel="stylesheet" href="../css/loan.css">
+	<link rel="stylesheet" href="../css/loan-text.css">
 </head>
 <body>
 	<div class="wrap">
@@ -132,9 +132,60 @@
 				<div class="w">
 					<div class="lists">
 						<div class="title first-title">
-							<h3 class="t1">平台优势</h3>
+							<h3 class="t1">信息填写<span class="red">*为确保借款成功，请如实填写</span></h3>
 						</div>
 						<div class="list">
+							<div class="list-form">
+								<form >
+									<div class="form-text1">
+										<span>是否有房:</span> <span><input name="isHome" value="true" type="radio">是</span><span><input value="false" name="isHome" type="radio">否</span>
+
+									</div>
+									<div class="form-text1">
+										<span>是否有车:</span> <span><input name="isCar" value="true" type="radio">是</span><span><input value="false" name="isCar" type="radio">否</span>
+									</div>
+									<div class="form-text2">
+										<span>借款用途:</span> <span class="red">*请填写借款用途！</span>
+										<textarea name="loanPurpose" placeholder="请输入您的借款用途，50字以内"></textarea>	
+									</div>
+									<div class="form-text3">
+										<span>借款金额:</span> <span class="red">*请填写借款金额！</span>
+										<input name="loanMoney" type="text" placeholder="请输入借款金额，100的整数，20万以内">元
+									</div>
+									<div class="form-text3">
+										<span>工资收入:</span>
+										<input name="jobMoney" type="text" placeholder="请输入工资，整数输入">元
+									</div>
+									<div class="form-text3">
+										<span>所在省市:</span>									
+										<select name="address">
+										  <option>安徽</option>
+										  <option>北京</option>
+										  <option>河北</option>
+										  <option>辽宁</option>
+										  <option>吉林</option>
+										  <option>内蒙古</option>
+										  <option>黑龙江</option>
+										  <option>山东</option>
+										  <option>河南</option>
+										  <option>安徽</option>
+										  <option>北京</option>
+										  <option>河北</option>
+										  <option>辽宁</option>
+										  <option>吉林</option>
+										  <option>内蒙古</option>
+										  <option>黑龙江</option>
+										  <option>河南</option>
+										</select>
+
+									</div>
+
+									<div class="form-text4">
+										<button class="active" type="button">立即申请</button>
+									</div>
+						
+								</form>
+							</div>
 							<ul class="list-group x1">
 								<li class="list-item">
 									<div class="cen">
@@ -163,58 +214,6 @@
 									</div>
 								</li>
 							</ul>
-						</div>
-						<div class="title">
-							<h3 class="t2">流程指引</h3>
-						</div>
-						<div class="list">
-							<ul class="list-group x2">
-								<li class="list-item">
-									<div class="cen">
-										<ul class="clearfix">
-											<li class="pull-left ">
-												<p class="up"><span class="rotate y-big"></span></p>
-											</li>
-											<li class="pull-left ">
-												<p class="up"><span class="rotate d-big"></span></p>
-											</li>
-											<li class="pull-left ">
-												<p class="up"><span class="rotate t-big"></span></p>
-											</li>
-											<li class="pull-left ">
-												<p class="up"><span class="rotate m-big"></span></p>
-											</li>
-											<li class="pull-left ">
-												<p class="up"><span class="rotate x-big"></span></p>
-											</li>
-										</ul>
-									</div>
-									<img class="loan-hot" src="../image/loan-hot.png">
-								</li>
-							</ul>
-						</div>
-						<div class="title">
-							<h3 class="t3">立即申请</h3>
-						</div>
-						<div class="list">
-							<ul class="list-group x3">
-								<li class="list-item clearfix">
-									<h5>申请条件</h5>
-									<div class="pull-left loan-discount">
-										<p>1、22-25周岁（不含55周岁）的中国（不含港澳台）公民</p>
-										<p>2、现单位工作满6个月的受薪人士</p>
-									</div>
-									<div class="pull-left loan-btn">
-										<button class="active" type="button">立即申请</button>
-										<button type="button">我的借款</button>
-
-									</div>
-								</li>
-							</ul>
-						</div>
-
-						<div>
-
 						</div>
 
 
