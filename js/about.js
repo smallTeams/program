@@ -9,7 +9,6 @@ $(document).ready(function(){
 });
 function getHtml(name){
     $.get('a-'+name+'.html',function(data){
-        alert(123)
-        $(".a-r").html(data)
+        $(".a-r").html(data);
     });
 }

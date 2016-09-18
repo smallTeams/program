@@ -45,7 +45,7 @@ i{
 .nav>li.active>a{
     background: #fff;
     position: relative;
-    left: -2px;px;
+    left: -2px;
     border-top:1px solid #0091db;
     border-bottom:1px solid #0091db;
 }
