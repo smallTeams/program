@@ -18,7 +18,9 @@
     <link type="text/css" href="../plugin/bootstrap3/css/bootstrap.min.css" rel="stylesheet" />
     <link type="text/css" href="../css/common.css" rel="stylesheet" />
     <script src="../plugin/jquery.min.js"></script>
-
+    <script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=fRQ3OBY8v7tU9Y08X08NNWkK3SGkDZUr"></script>
+    <script type="text/javascript" src="http://api.map.baidu.com/library/SearchInfoWindow/1.5/src/SearchInfoWindow_min.js"></script>
+    <link rel="stylesheet" href="http://api.map.baidu.com/library/SearchInfoWindow/1.5/src/SearchInfoWindow_min.css" />
     <link rel="stylesheet" href="../css/about.css">
 </head>
 <body>
@@ -40,25 +42,25 @@
                             </dt>
                             <dd>
                                 <ul class="nav nav-stacked" role="tablist">
-                                    <li role="presentation" class="active">
+                                    <li role="presentation" class="active" onclick="getHtml('company')">
                                         <a href="javascript:;">公司简介</a>
                                     </li>
-                                    <li role="presentation">
+                                    <li role="presentation" onclick="getHtml('executives')">
                                         <a href="javascript:;">高管团队</a>
                                     </li>
-                                    <li role="presentation" class="">
+                                    <li role="presentation" class="" onclick="getHtml('companyStyle')">
                                         <a href="javascript:;">公司风貌</a>
                                     </li>
-                                    <li role="presentation">
+                                    <li role="presentation" onclick="getHtml('media')">
                                         <a href="javascript:;">媒体信息</a>
                                     </li>
-                                    <li role="presentation" class="">
+                                    <li role="presentation" class="" onclick="getHtml('announcement')">
                                         <a href="javascript:;">官方公告</a>
                                     </li>
-                                    <li role="presentation">
+                                    <li role="presentation" onclick="getHtml('join')">
                                         <a href="javascript:;">加入我们</a>
                                     </li>
-                                    <li role="presentation" class="">
+                                    <li role="presentation" class="" onclick="getHtml('connection')">
                                         <a href="javascript:;">联系我们</a>
                                     </li>
                                 </ul>
