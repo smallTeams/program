@@ -22,3 +22,13 @@ lender-invitation.css        出借人邀请好友界面；侧边栏hover样式及按钮hover样式
 
 lender-account.html   修改往充值页面跳转错误
 a-announcement.css    增加关于我们官网公告按钮hover样式
+
+
+index.html,index.css,index.js    首页的侧边栏滑块
+1、底部导航修改，加上了按标签和手指效果  cooperation.html、information.html
+2. 我要出借——详情页（invest.html）
+	2.1 加息券、现金券下拉框现在是背景图，改为下拉框
+	2.2 项目描述的菜单，加选中效果，点击后加滚动效果
+	2.3 抵押信息图片，可点击看大图
+
+关于我们 所有a-***.html   删除aboutWe.html   和  about.js

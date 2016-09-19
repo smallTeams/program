@@ -41,3 +41,25 @@ lender-finance.html           出借人我的理财界面；
 lender-activity.html          出借人活动中心界面；
 lender-coupon.html            出借人我的礼券界面；
 lender-invitation.html        出借人邀请好友界面；
+
+关于我们
+
+a-company                     公司简介
+a-executives                  高管团队
+a-companyStyle                公司风貌
+a-media                       媒体信息
+a-mediaDetails                媒体信息-详细
+a-announcement     	      官方公告
+a-announcement-detail	      官方公告详情
+a-join                        加入我们
+a-connection                  联系我们
+
+首页
+bindBank                      绑卡
+certification                 身份认证
+fail                          404
+forgetPass                    忘记密码
+login                         登录
+register                      注册
+
+  

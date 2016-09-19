@@ -1,0 +1,18 @@
+2016.9.19前
+底部导航：cooperation.html、information.html
+我要理财列表页：financing.html
+产品详情页：invest.html
+安全保障页面:safety.html
+手机理财页面:phone.html
+公司风貌页面:a-companyStyle.html
+媒体报道:a-media.html
+媒体详情页:a-mediaDetails.html
+我要借款页面:loan.html
+我要借款 - 填写信息页面:loan-text.html
+
+2016.9.19后
+1、底部导航修改，加上了按标签和手指效果
+2. 我要出借——详情页（invest.html）
+	2.1 加息券、现金券下拉框现在是背景图，改为下拉框
+	2.2 项目描述的菜单，加选中效果，点击后加滚动效果
+	2.3 抵押信息图片，可点击看大图
