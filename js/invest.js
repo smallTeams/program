@@ -11,10 +11,6 @@ jQuery(".invest-select ul li").click(function(){
     jQuery(this).parents(".invest-select").children("span").html(jQuery(this).html());
 });
 
-  
-function scroll(id) {  
-jQuery("#" + id).HoverTreeScroll(1000);  
-}  
 
 
 //点击图片放大效果
@@ -34,6 +30,9 @@ jQuery(".lists .nav-tabs>li").click(function(){
     jQuery(".lists .nav-tabs>li").removeClass("active");
     jQuery(this).addClass("active");
 })
+function scroll(id) {  
+jQuery("#" + id).HoverTreeScroll(1000);  
+}  
 
 
 

@@ -1,0 +1,74 @@
+.bg.content {
+    padding-bottom: 37px;
+}
+
+.lists .title{
+    padding: 10px 0 16px;
+}
+.lists .title.first-title{
+    padding: 30px 0 16px;
+}
+
+.lists .title h3 {
+    font-size: 18px;
+    line-height: 18px;
+    color: #939393;
+}
+
+
+.lists .title h3:before {
+    content: "";
+    width: 3px;
+    height: 18px;
+    display: inline-block;
+    background: #0091db;
+    vertical-align: top;
+    margin-right: 10px;
+}
+
+
+.lists .describe-text{
+    padding-top: 50px;
+    border: 1px solid #e9e9e9;
+    background: #fff;
+}
+.lists .nav-tabs{
+    border: none;
+    background: #f5f5f5;
+}
+.lists .nav-tabs>li {
+    width: 160px;
+    text-align: center;
+    margin-top: -1px;
+
+}
+.lists .nav-tabs>li>a{
+    margin: 0;
+    border-radius: 0;
+    font-size: 16px;
+    /*background: #fff;*/
+    /*border: 1px solid #e9e9e9;*/
+    padding: 17px 15px ;
+}
+.lists .nav-tabs>li.active>a,.lists .nav-tabs>li.active>a:focus,.lists .nav-tabs>li.active>a:hover,.lists.navBar .nav>li>a:focus,.lists .nav>li>a:hover {
+    color: #0091db;
+    cursor: pointer;
+    background-color: #fff;
+/*    border: 1px solid #e9e9e9;
+    border-bottom-color: transparent;*/
+    border: none;
+    border-top: 2px solid #0091db;
+    padding:16px 15px 17px;
+}
+
+.lists .describe-content{
+    width: 580px;
+    padding: 60px 150px;
+    background: #fff;
+}
+.lists .describe-content ul li{
+    width: 100%;
+    height:60px;
+    line-height: 60px;
+
+}
