@@ -48,6 +48,10 @@
     text-align: center;
     color: #808080;
 }
+.classify-item:hover {
+    background-color: #eeeeee;
+    text-decoration: none;
+}
 .classify-item a {
     font-size: 16px;
 }
@@ -119,6 +123,10 @@
     margin-left: 30px;
     background-color: #fff;
 }
+.information-user-search:hover {
+    background-color: #0091db;
+    color: #fff;
+}
 .information-detail-item {
     width: 100%;
     margin-top: 33px;
@@ -152,4 +160,8 @@
     color: #ff5607;
     font-size: 14px;
     background-color: #fff;
+}
+.detail-item-change-button:hover {
+    background-color: #ff5607;
+    color: #fff;
 }

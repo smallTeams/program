@@ -51,6 +51,10 @@
 .classify-item a {
     font-size: 16px;
 }
+.classify-item:hover {
+    background-color: #eeeeee;
+    text-decoration: none;
+}
 .classify-item.active {
     color: #000;
     border-top: 1px solid #0091db;
@@ -90,7 +94,8 @@
     cursor: pointer;
 }
 .go-recharge:hover {
-    color: #ff5607;
+    color: #fff;
+    background-color: #ff5607;
 }
 .recharge-tip1 {
     margin-left: 50px;

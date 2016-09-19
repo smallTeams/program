@@ -288,6 +288,10 @@ i{
     margin-right: 9px;
     color: #808080;
 }
+.pagination .announcement-pagination-item>a:hover {
+    background-color: #0091db;
+    color: #fff;
+}
 .pagination .announcement-pagination-item.active>a {
     color: #fff;
     background-color: #0091db;

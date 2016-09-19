@@ -33,6 +33,10 @@
     line-height: 50px;
     width: 214px;
 }
+.classify-item:hover {
+    background-color: #eeeeee;
+    text-decoration: none;
+}
 .classify-title {
     width: 169px;
     color: #0091db;
@@ -117,6 +121,10 @@
     margin-left: 50px;
     cursor: pointer;
 }
+.loan-filter-btn:hover {
+    background-color: #0091db;
+    color: #fff;
+}
 .loan-detail-box {
     border: 1px solid #f5f5f5;
 }
@@ -172,6 +180,10 @@
 .pagination .loan-pagination-item>a {
     margin-right: 9px;
     color: #808080;
+}
+.pagination .loan-pagination-item>a:hover {
+    background-color: #0091db;
+    color: #fff;
 }
 .pagination .loan-pagination-item.active>a {
     color: #fff;

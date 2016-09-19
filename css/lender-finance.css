@@ -51,6 +51,10 @@
 .classify-item a{
     font-size: 16px;
 }
+.classify-item:hover {
+    background-color: #eeeeee;
+    text-decoration: none;
+}
 .classify-item.active {
     color: #000;
     border-top: 1px solid #0091db;
@@ -159,6 +163,10 @@
     background-color: #fff;
     margin-left: 10px;
 }
+.detail-choose-btn:hover {
+    background-color: #0091db;
+    color: #fff;
+}
 .finance-detai-title {
     height: 50px;
     line-height: 50px;
@@ -181,6 +189,10 @@
 .pagination .finance-pagination-item>a {
     margin-right: 9px;
     color: #808080;
+}
+.pagination .finance-pagination-item>a:hover {
+    color: #fff;
+    background-color: #0091db;
 }
 .pagination .finance-pagination-item.active>a {
     color: #fff;

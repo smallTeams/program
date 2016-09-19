@@ -51,6 +51,10 @@
 .classify-item a{
     font-size: 16px;
 }
+.classify-item:hover {
+    background-color: #eeeeee;
+    text-decoration: none;
+}
 .classify-item.active {
     color: #000;
     border-top: 1px solid #0091db;
@@ -120,6 +124,10 @@
     margin-left: 30px;
     background-color: #fff;
 }
+.information-user-search:hover {
+    background-color: #0392db;
+    color: #fff;
+}
 .information-detail-item {
     height: 46px;
     width: 100%;
@@ -155,4 +163,8 @@
     color: #ff5607;
     font-size: 14px;
     background-color: #fff;
+}
+.detail-item-change-button:hover {
+    background-color: #ff5607;
+    color: #fff;
 }

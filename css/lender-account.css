@@ -58,6 +58,10 @@
     background-color: #fff;
     width: 215px;
 }
+.classify-item:hover {
+    background-color: #eeeeee;
+    text-decoration: none;
+}
 /*面板account*/
 .show-detail-container {
     width: 863px;
@@ -189,6 +193,10 @@
     background-color: #fff;
     margin-left: 20px;
     vertical-align: middle;
+}
+.query-btn:hover {
+    background-color: #0091db;
+    color: #fff;
 }
 .account-detail-show {
     color: #808080;

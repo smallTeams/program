@@ -48,6 +48,10 @@
     text-align: center;
     color: #808080;
 }
+.classify-item:hover {
+    background-color: #eeeeee;
+    text-decoration: none;
+}
 .classify-item a {
     font-size: 16px;
 }
@@ -145,6 +149,10 @@
 .pagination .repayment-pagination-item>a {
     margin-right: 9px;
     color: #808080;
+}
+.pagination .repayment-pagination-item>a:hover {
+    background-color: #0091db;
+    color: #fff;
 }
 .pagination .repayment-pagination-item.active>a {
     color: #fff;

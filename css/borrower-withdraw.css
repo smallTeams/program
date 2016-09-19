@@ -48,6 +48,10 @@
     text-align: center;
     color: #808080;
 }
+.classify-item:hover {
+    background-color: #eeeeee;
+    text-decoration: none;
+}
 .classify-item a {
     font-size:16px;
 }
@@ -133,5 +137,6 @@
     font-size: 16px;
 }
 .go-withdraw:hover {
-    color: #ff5607;
+    background-color: #ff5607;
+    color: #fff;
 }

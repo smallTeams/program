@@ -37,6 +37,10 @@
 .classify-item a{
     font-size: 16px;
 }
+.classify-item:hover {
+    background-color: #eeeeee;
+    text-decoration: none;
+}
 .classify-title {
     width: 169px;
     color: #0091db;
@@ -192,6 +196,11 @@
     margin-left: 20px;
     vertical-align: middle;
 }
+.query-btn:hover {
+    background-color: #0392db;
+    color: #fff;
+}
+
 .account-detail-show {
     color: #808080;
 }

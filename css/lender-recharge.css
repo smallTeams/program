@@ -38,6 +38,10 @@
     color: #0091db;
     font-size: 16px;
 }
+.classify-item:hover {
+    background-color: #eeeeee;
+    text-decoration: none;
+}
 .classify-icon {
     display: inline-block;
     margin-left: 15px;
@@ -90,7 +94,8 @@
     cursor: pointer;
 }
 .go-recharge:hover {
-    color: #ff5607;
+    background-color: #ff5607;
+    color: #fff;
 }
 .recharge-tip1 {
     margin-left: 50px;
