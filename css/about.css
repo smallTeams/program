@@ -261,6 +261,7 @@ i{
 }
 .announcement-detail-item>a {
     display: block;
+    overflow: hidden;
 }
 .announcement-item-content {
     color: #333;
