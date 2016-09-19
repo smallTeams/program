@@ -92,6 +92,7 @@
     text-align: center;
     color: #ff5607;
     cursor: pointer;
+    
 }
 .go-recharge:hover {
     color: #fff;
@@ -171,4 +172,5 @@
     border: none;
     border-bottom: 2px solid #f5f5f5;
     margin-top: 38px;
+    display: block;
 }

@@ -2,3 +2,23 @@
 修改 绑卡页面及样式
 修改 注册的页面及样式
 修改 忘记密码页面及样式
+
+9/19
+borrower-account.css         借款人我的账户界面;侧边栏hover样式及按钮hover样式
+borrower-recharge.css        借款人充值界面；侧边栏hover样式及按钮hover样式
+borrower-withdraw.css        借款人提现界面；侧边栏hover样式及按钮hover样式
+borrower-information.css     借款人个人资料界面；侧边栏hover样式及按钮hover样式
+borrower-loan.css            借款人我的借款界面；侧边栏hover样式及按钮hover样式
+borrower-repayment.css       借款人我的还款界面；侧边栏hover样式及按钮hover样式
+侧边栏hover样式及按钮hover样式
+lender-account.css           出借人我的账户界面;侧边栏hover样式及按钮hover样式
+lender-recharge.css          出借人充值界面；侧边栏hover样式及按钮hover样式
+lender-withdraw.css          出借人提现界面；侧边栏hover样式及按钮hover样式
+lender-information.css       出借人个人资料界面；侧边栏hover样式及按钮hover样式
+lender-finance.css           出借人我的理财界面；侧边栏hover样式及按钮hover样式
+lender-activity.css          出借人活动中心界面；侧边栏hover样式及按钮hover样式
+lender-coupon.css            出借人我的礼券界面；侧边栏hover样式及按钮hover样式
+lender-invitation.css        出借人邀请好友界面；侧边栏hover样式及按钮hover样式
+
+lender-account.html   修改往充值页面跳转错误
+a-announcement.css    增加关于我们官网公告按钮hover样式

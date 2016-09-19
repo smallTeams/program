@@ -174,14 +174,17 @@
 .invitation-search-time {
     display: inline-block;
     padding-left: 31px;
-    height: 56px;
+    height: 47px;
     line-height: 56px;
+    padding-top: 9px;
+    vertical-align: middle;
 }
 .invitation-choose-input {
     display: inline-block;
     height: 32px;
     width: 180px;
     cursor: pointer;
+    vertical-align: top;
 }
 .invitation-record-query {
     display: inline-block;
@@ -193,6 +196,8 @@
     border: 1px solid #0091db;
     margin-left: 20px;
     background-color: #fff;
+    vertical-align: top;
+    
 }
 .invitation-record-query:hover {
     background-color: #0091db;
