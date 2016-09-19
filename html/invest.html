@@ -21,7 +21,8 @@
 	
 	<!-- include之后 上边的可以删除掉了 -->
 	<link rel="stylesheet" href="../css/invest.css">
-	<script type="text/javascript" src="../plugin/jquery-plug/jquery.SuperSlide.2.1.1.js"></script>
+	<script type="text/javascript" src="../plugin/jquery-plug/slider.js"></script>
+	<script type="text/javascript" src="../plugin/jquery-plug/hovertreescroll.js"></script>
 </head>
 <body>
 	<div class="wrap">
@@ -200,11 +201,27 @@
 									<ul class="pull-left invest-text">
 										<li>账户余额：<span class="invest-login red">3435元</span> <span class="invest-login hidden"><a class="blue" href="#">登录</a>后可见</span> <a class="invest-recharge" href="#">充值</a></li>
 										<li class="black">请输入出借金额：<div class="invest-input"><input placeholder="可投金额：  3435元" type="text"></div></li>
-										<li>预计收益：<span class="red">456元</span></li>
+										<li>预计收益：<span class="invest-login red">456元</span></li>
 									</ul>
 									<div class="pull-left invest-discount">
-										<div class="invest-select">无可用现金券</div>
-										<div class="invest-select">无可用加息劵</div>
+										<div class="invest-select">
+											<span>无可用现金券</span>
+											<ul class="hidden">
+												<li>一号现金券</li>
+												<li>二号现金券</li>
+												<li>三号现金券</li>
+												<li>四号现金券</li>
+											</ul>
+										</div>
+										<div class="invest-select">
+											<span>无可用加息劵</span>
+											<ul class="hidden">
+												<li>一号加息券</li>
+												<li>二号加息券</li>
+												<li>三号加息券</li>
+												<li>四号加息券</li>
+											</ul>
+										</div>
 									</div>
 									<div class="pull-left invest-btn">
 										<button type="button">立即出借</button>
@@ -213,17 +230,17 @@
 								</li>
 							</ul>
 						</div>
-						<div class="title">
+						<div class="title" id="projecttext">
 							<h3 >项目描述</h3>
 						</div>
 						<div class="list">
 							<div class="describe-text">
 								<ul class="nav nav-tabs">
-								  <li class="active"><a href="#">项目详情</a></li>
-								  <li><a href="#business">企业信息</a></li>
-								  <li><a href="#audit">审核信息</a></li>
-								  <li><a href="#mortgage">抵押信息</a></li>
-								  <li><a href="#lend">出借记录</a></li>
+								  <li class="active"><a href="javascript:scroll('projecttext');">项目详情</a></li>
+								  <li><a href="javascript:scroll('business');">企业信息</a></li>
+								  <li><a href="javascript:scroll('audit');">审核信息</a></li>
+								  <li><a href="javascript:scroll('mortgage');">抵押信息</a></li>
+								  <li><a href="javascript:scroll('lend');">出借记录</a></li>
 								</ul>
 								<div class="describe-content">
 									<h5>企业信息：</h5>
@@ -356,9 +373,7 @@
 
 							</div>
 						</div>
-						<div>
 
-						</div>
 						
 						<div class="clearfix financing-foot-nav">
 							<span class="foot-nav foot-nav-top hidden">
@@ -381,9 +396,14 @@
 						</div>
 
 					</div>
-
 				</div>
 				
+			</div>
+			<div class="invest-cover hidden">
+				<div>
+					<img src="../image/img/dy.png">
+					<span class="close_cn"></span>
+				</div>
 			</div>
 		</div>
 		<div class="footer">
