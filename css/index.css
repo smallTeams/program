@@ -351,3 +351,52 @@
     width: 14px;  height: 14px;
     background: url(../image/close.png) no-repeat center;
 }
+
+.bayWindow{
+    position: fixed;
+    z-index: 999;
+    right: 30px;
+    bottom:50px;
+    background: #ffffff;
+    width: 38px;
+    border:1px solid #e9e9e9;
+    border-bottom: 0;
+}
+.bayWindow li{
+    width:100%;
+    height: 40px;
+    border-bottom:1px solid #e9e9e9;
+    position: relative;
+}
+.bayWindow a{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.bayWindow li:hover .ewm{
+    display: block;
+}
+.bayWindow .co{
+    background: url("../image/wing.png") no-repeat 5px 5px;
+}
+.bayWindow .mobile{
+    background: url("../image/wing.png") no-repeat 5px -37px;
+}
+.bayWindow .follow{
+    background: url("../image/wing.png") no-repeat 5px -78px;
+}
+.bayWindow .top{
+    background: url("../image/wing.png") no-repeat 5px -118px;
+}
+.ewm{
+    padding:5px;
+    position: absolute;
+    right:39px;
+    top:-20px;
+    background: #4ca2ff;
+    display: none;
+}
+.ewm p{
+    text-align: center;
+    color: #ffffff;
+}

@@ -29,6 +29,6 @@ $(document).scroll(function(){
 function closeicon(){
     document.querySelector(".cover").setAttribute("class","hidden");
 }
-$(".navbar-nav li").hover(function(){
-	
+$(".top").on('click',function(){
+    $('html,body').animate({scrollTop: 0}, 500);
 });
