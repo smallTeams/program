@@ -28,3 +28,12 @@ $(function () {
     };
 
 });
+function saveScore(){
+    alert("点击了提交")
+}
+$(".act-btn,.opa").on('click',function(){
+    $(".markdown").fadeOut();
+});
+$(".go-risk-assessment").on("click",function(){
+    $(".markdown").fadeIn();
+});
