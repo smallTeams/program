@@ -10,8 +10,10 @@ jQuery(".lists .nav-tabs>li").click(function(){
     }
     jQuery(".describe-content .help"+jQuery(this).attr("data-num")).removeClass("hidden");
 
-
 })
 
+jQuery(".describe-content a").click(function(){
+    jQuery(this).next().toggleClass("hidden");
+})
 
 
