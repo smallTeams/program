@@ -186,6 +186,15 @@
     background: #0091db;
 }
 
+.lists .cen li.b .btn.over{
+    background: #ccc;
+    cursor: default;
+    padding: 10px 39px;
+}
+.lists .cen li.b .btn.over:hover{
+    background: #ccc;
+}
+
 .financing-foot-nav{
     letter-spacing: -4px;
     text-align: right;
