@@ -3,6 +3,7 @@
  */
 
 $(function () {
+    $('.selectpicker').selectpicker();
     laydate.skin('yalan');
     var start = {
         elem: '#start',

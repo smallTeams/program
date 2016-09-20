@@ -1,11 +1,5 @@
-/**
- * Created by wxq on 2016/9/16.
- */
-/**
- * Created by wxq on 2016/9/16.
- */
-
 $(function () {
+    $('.selectpicker').selectpicker();
     laydate.skin('yalan');
     var start = {
         elem: '#start',

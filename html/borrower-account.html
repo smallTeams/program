@@ -16,6 +16,7 @@
     <meta name="description" content=""/>
     <link type="text/css" href="../plugin/bootstrap3/css/bootstrap.min.css" rel="stylesheet"/>
     <link type="text/css" href="../css/common.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="../plugin/jquery-plug/selectpicker/selectpicker.css"/>
     <link rel="stylesheet" href="../css/borrower-account.css" rel="stylesheet"/>
 </head>
 <body>
@@ -84,7 +85,13 @@
                         <div class="account-detail-show">
                             <div class="account-detail-show-title clearfix">
                                 <div class="md-3 md-3-title color-main">时间</div>
-                                <div class="md-3 md-3-title color-main">全部类型 <span class="triangle-down"></span></div>
+                                <div class="md-3 md-3-title color-main">
+                                    <select class="selectpicker"  data-width="70px">
+                                        <option>全部类型</option>
+                                        <option>类型2</option>
+                                        <option>类型3</option>
+                                    </select>
+                                </div>
                                 <div class="md-3 md-3-title color-main">金额</div>
                                 <div class="md-3 md-3-title color-main">操作</div>
                             </div>
@@ -125,6 +132,7 @@
 <script src="../plugin/jquery.min.js"></script>
 <script src="../plugin/laydate/laydate.js"></script>
 <script src="../plugin/jquery-plug/placeholder.js"></script>
+<script src="../plugin/jquery-plug/selectpicker/selectpicker.js"></script>
 <script src="../js/borrower-account.js"></script>
 </body>
 </html>

@@ -51,10 +51,7 @@
 .classify-item a{
     font-size: 16px;
 }
-.classify-item:hover {
-    background-color: #eeeeee;
-    text-decoration: none;
-}
+
 .classify-item.active {
     color: #000;
     border-top: 1px solid #0091db;
@@ -135,6 +132,9 @@
     text-align: center;
     color: #000;
     cursor: pointer;
+    width: 13%;
+    display: inline-block;
+    float: left;
 }
 .detail-choose-item.active {
     color: #fff;
@@ -143,6 +143,9 @@
 .choose-time {
     height: 40px;
     padding-top: 10px;
+    width: 60%;
+    display: inline-block;
+    float: left;
 }
 .detail-choose-input,
 .detail-choose-btn {
@@ -150,7 +153,7 @@
     height: 25px;
 }
 .detail-choose-input {
-    width: 130px;
+    width: 170px;
     height: 25px;
     cursor: pointer;
 }

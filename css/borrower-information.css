@@ -165,3 +165,116 @@
     background-color: #ff5607;
     color: #fff;
 }
+/*自定义弹出层样式*/
+
+body .information-layer .layui-layer-title{background:#0091db; color:#fff; border: none;
+    height: 40px;
+    width: 340px;
+    line-height: 40px;
+    padding: 0 10px;}
+body .information-layer .layui-layer-content {
+    width: 300px;
+    height: 130px !important;
+    padding: 20px 20px 0 20px;
+    background-color: #fff;
+}
+body .information-layer .layui-layer-content input {
+    margin-top: 15px;
+    display: block;
+    height: 40px;
+    padding-left: 5px;
+    width: 100%;
+}
+body .information-layer .layui-layer-btn {
+    width: 340px !important;
+}
+body .information-layer .layui-layer-btn .layui-layer-btn0{
+    height: 34px;
+    width: 160px;
+    background-color: #0091db;
+    margin: 20px auto;
+    line-height: 34px;
+    text-align: center;
+    -webkit-border-radius: 17px;
+    -moz-border-radius: 17px;
+    border-radius: 17px;
+    display: block;
+}
+/*修改手机号码和邮箱的弹出框样式*/
+body .information-tel-mail .layui-layer-title {
+    height: 40px;
+    width: 340px;
+    line-height: 40px;
+    padding: 0 10px;
+    background:#0091db; color:#fff; border: none;
+}
+body .information-tel-mail .layui-layer-content {
+    width: 300px;
+    height: 160px !important;
+    padding: 20px 20px 0 20px;
+    background-color: #fff;
+}
+body .information-tel-mail .layui-layer-content>input {
+    height: 40px;
+    line-height: 40px;
+    width: 295px;
+    padding-left: 5px;
+}
+body .information-tel-mail .layui-layer-content .verification-box {
+    margin-top: 10px;
+}
+body .information-tel-mail .layui-layer-content .verification-img-input {
+    width: 160px;
+    padding-left: 5px;
+    margin-right: 18px;
+    height: 40px;
+    line-height: 40px;
+    display: inline-block;
+}
+body .information-tel-mail .layui-layer-content .verification-message-box {
+    margin-top: 10px;
+}
+body .information-tel-mail .layui-layer-content .vertication-message-input {
+    width: 160px;
+    padding-left: 5px;
+    margin-right: 18px;
+    height: 40px;
+    line-height: 40px;
+    display: inline-block;
+}
+body .information-tel-mail .layui-layer-content .vertication-message-btn {
+    width: 96px;
+    display: inline-block;
+    height: 40px;
+    background-color: #0091db;
+    text-align: center;
+    line-height: 40px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    color: #fff;
+}
+body .information-tel-mail .layui-layer-btn .layui-layer-btn0{
+    height: 40px;
+    width: 300px;
+    background-color: #0091db;
+    margin: 20px auto;
+    line-height: 40px;
+    text-align: center;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    display: block;
+    margin-bottom: 0;
+}
+body .information-tel-mail .layui-layer-btn .layui-layer-btn1 {
+    display: block;
+    font-size: 12px;
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+    color: #ddd;
+    border: 0;
+    text-align: center;
+    padding-top: 5px;
+}

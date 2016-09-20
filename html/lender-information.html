@@ -16,6 +16,7 @@
     <meta name="description" content=""/>
     <link type="text/css" href="../plugin/bootstrap3/css/bootstrap.min.css" rel="stylesheet"/>
     <link type="text/css" href="../css/common.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="../plugin/layer/skin/layer.css"/>
     <link rel="stylesheet" href="../css/lender-information.css" rel="stylesheet"/>
 </head>
 <body>
@@ -34,7 +35,8 @@
                         <dd class="classify-item" data-target='account'><a href="lender-account.html">账户总览 ></a></dd>
                         <dd class="classify-item " data-target="recharge"><a href="lender-recharge.html">我要充值 ></a></dd>
                         <dd class="classify-item " data-target="withdraw"><a href="lender-withdraw.html">我要提现 ></a></dd>
-                        <dd class="classify-item active" data-target="information"><a href="javascript:;">个人资料 ></a></dd>
+                        <dd class="classify-item active" data-target="information"><a href="javascript:;">个人资料 ></a>
+                        </dd>
                         <dt class="classify-title"><img src="../image/send-pig.png" alt="" class="classify-icon"/>出借管理
                         </dt>
                         <dd class="classify-item" data-target="finance"><a href="lender-finance.html">我的理财 ></a></dd>
@@ -42,7 +44,8 @@
                         </dt>
                         <dd class="classify-item" data-target="activity"><a href="lender-activity.html">活动中心 ></a></dd>
                         <dd class="classify-item" data-target="coupon"><a href="lender-coupon.html">我的礼券 ></a></dd>
-                        <dd class="classify-item" data-target="invitation"><a href="lender-invitation.html">邀请好友 ></a></dd>
+                        <dd class="classify-item" data-target="invitation"><a href="lender-invitation.html">邀请好友 ></a>
+                        </dd>
                     </dl>
                 </div>
                 <div class="show-detail-container pull-right">
@@ -71,22 +74,27 @@
                                 <li class="information-detail-item">
                                     <span class="detail-item-title">登陆密码：</span>
                                     <span class="detail-item-content">*********</span>
-                                    <button class="detail-item-change-button">修改登陆密码</button>
+                                    <button class="detail-item-change-button change-password">修改登陆密码</button>
                                 </li>
                                 <li class="information-detail-item">
                                     <span class="detail-item-title">手机号码：</span>
                                     <span class="detail-item-content">13683574838</span>
-                                    <button class="detail-item-change-button">修改手机号码</button>
+                                    <button class="detail-item-change-button change-tel">修改手机号码</button>
+                                </li>
+                                <li class="information-detail-item">
+                                    <span class="detail-item-title">银行卡号：</span>
+                                    <span class="detail-item-content">6226****7840</span>
+                                    <button class="detail-item-change-button">绑定银行卡</button>
                                 </li>
                                 <li class="information-detail-item">
                                     <span class="detail-item-title">电子邮箱：</span>
                                     <span class="detail-item-content"></span>
-                                    <button class="detail-item-change-button">绑定电子邮箱</button>
+                                    <button class="detail-item-change-button bind-mail">绑定电子邮箱</button>
                                 </li>
                                 <li class="information-detail-item">
                                     <span class="detail-item-title">邀请人：</span>
                                     <span class="detail-item-content"></span>
-                                    <button class="detail-item-change-button">绑定邀请人</button>
+                                    <button class="detail-item-change-button bind-invitation">绑定邀请人</button>
                                 </li>
                             </ul>
 
@@ -97,11 +105,19 @@
             </div>
         </div>
     </div>
-    <div class="footer"></div>
+    <div class="footer">
+        <div class="invater-box">
+            <span>邀请人：</span>
+            <input type="text" placeholder="请输入邀请人用户名"/>
+        </div>
+
+
+    </div>
 </div>
 <script src="../plugin/jquery.min.js"></script>
 <script src="../plugin/laydate/laydate.js"></script>
 <script src="../plugin/jquery-plug/placeholder.js"></script>
-<script src="../js/lender-withdraw.js"></script>
+<script src="../plugin/layer/layer.js"></script>
+<script src="../js/lender-information.js"></script>
 </body>
 </html>
