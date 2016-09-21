@@ -232,10 +232,8 @@
     border: 5px solid transparent;
     border-top-color: #0091db;
     margin-left: 20px;
-<<<<<<< HEAD
+
 }*/
-=======
-}
 
 .markdown{
     position: absolute;
@@ -340,4 +338,4 @@
 .list-sub label{
     font-weight: normal;
 }
->>>>>>> 4f3fae29f205253d4edcaa08304f6b4e218acd74
+
