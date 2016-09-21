@@ -1,5 +1,8 @@
 $(function () {
-    $('.selectpicker').selectpicker();
+    $('.selectpicker').selectpicker({
+        style: 'btn-info',
+    });
+
     laydate.skin('yalan');
     var start = {
         elem: '#start',

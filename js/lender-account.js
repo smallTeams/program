@@ -3,11 +3,13 @@
  */
 
 $(function () {
-    $('.selectpicker').selectpicker();
+    $('.selectpicker').selectpicker({
+        style: 'btn-info',
+    });
     laydate.skin('yalan');
     var start = {
         elem: '#start',
-        format: 'YYYY/MM/DD',
+        format: 'YYYY/MM/DD hh:mm:ss',
         max: '2099-06-16 23:59:59', //最大日期
         istime: true,
         istoday: false,
@@ -18,7 +20,7 @@ $(function () {
     };
     var end = {
         elem: '#end',
-        format: 'YYYY/MM/DD',
+        format: 'YYYY/MM/DD hh:mm:ss',
         max: '2099-06-16 23:59:59',
         istime: true,
         istoday: false,

@@ -339,4 +339,8 @@
 .list-sub label{
     font-weight: normal;
 }
-
+.btn-info {
+    background-color: #edf9ff;
+    color: #0091db;
+    border-color: #edf9ff;
+}

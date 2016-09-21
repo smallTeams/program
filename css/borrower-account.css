@@ -235,3 +235,8 @@
     border-top-color: #0091db;
     margin-left: 20px;
 }
+.btn-info {
+    background-color: #edf9ff;
+    color: #0091db;
+    border-color: #edf9ff;
+}
