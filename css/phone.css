@@ -2,7 +2,7 @@
 
 .phonepage{
     position:relative;
-    height:500px;
+    height:540px;
     overflow:hidden;
     background:url("../image/loading.gif") 50% no-repeat;
 }
@@ -10,22 +10,35 @@
     position: relative;
     top: 0;
     right: 0;
-    height: 500px;
+    height: 540px;
 }
 .phonepage .phonepage-content .banner-bg{
+    position: relative;
     display: block;
     width: 100%;
     height: 100%;
-    background: url(../image/phone.jpg) no-repeat 50% 0;
+    background: url(../image/phone0.jpg) no-repeat 50% 0;
+}
+.phonepage .phonepage-content .banner-bg span{
+    position: absolute;
+    width: 77px;
+    height: 84px;
+    display: block;
+    left: 50%;
+    top:435px;
+    margin-left: -38px;
+    background: url(../image/phone-icon.png) no-repeat center;
+    z-index: 10;
 }
 .phonepage .phonepage-content .imggroup{
     position: absolute;
-    top: 110px;
+    top: 130px;
     left: 50%;
     display: block;
-    width: 500px;
-    height: 300px;
-    margin-left: -60px;
+    width: 204px;
+    height: 395px;
+    margin-left: 200px;
+    background:url(../image/down-group.png) no-repeat ;
 }
 .phonepage .phonepage-content .ewm{
     position:absolute;    
@@ -39,10 +52,10 @@
 .phonepage .phonepage-content .android{
     position:absolute; 
     top: 228px;
-    left: 15px;
+    left: 20px;
     display: block;
-    width: 227px;
-    height: 57px;
+    width: 164px;
+    height: 41px;
     background:url("../image/icon-a.png") no-repeat center top;
     transition:background 0.1s;
     -webkit-transition:background 0.1s;
@@ -52,11 +65,11 @@
 }
 .phonepage .phonepage-content .iphone{
     position:absolute; 
-    top: 228px;
-    right:15px;
+    top: 280px;
+    left: 20px;
     display: block;
-    width: 227px;
-    height: 57px;
+    width: 164px;
+    height: 41px;
     background:url("../image/icon-i.png") no-repeat center top;
     transition:background 0.1s;
     -webkit-transition:background 0.1s;
@@ -76,4 +89,9 @@
     from { -webkit-transform: translateX(100%); transform: translateX(100%); }
 }
 
-
+.list-item{
+    text-align: center;
+}
+.list-item img{
+    margin:0 auto;
+}
