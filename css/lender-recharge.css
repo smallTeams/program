@@ -92,17 +92,20 @@
     text-align: center;
     color: #ff5607;
     cursor: pointer;
+    margin-top: 42px;
 }
 .go-recharge:hover {
     background-color: #ff5607;
     color: #fff;
 }
-.recharge-tip1 {
-    margin-left: 50px;
+.recharge-tip {
+    margin-top: 39px;
+    color: #000;
+    font-size: 16px;
+    display: block;
+
 }
-.recharge-tip2 {
-    margin-left: 100px;
-}
+
 .show-detail-container {
     width: 863px;
     height: 733px;
@@ -172,4 +175,37 @@
     border-bottom: 2px solid #f5f5f5;
     margin-top: 38px;
     display: block;
+}
+.recharge-type-box {
+    margin-top: 32px;
+}
+.recharge-type-item {
+    display: inline-block;
+    width: 138px;
+    height: 38px;
+    line-height: 38px;
+    color: #666;
+    font-size: 16px;
+    border: 1px solid #dcdcdc;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    background-color: #f5f5f5;
+    text-align: center;
+    margin-right: 40px;
+    position: relative;
+    cursor: pointer;
+}
+.recharge-type-item.active {
+    background-color: #0091db;
+    color: #fff;
+}
+.recharge-type-item.active:before {
+    content: '';
+    width: 13px;
+    height: 10px;
+    background: url('../image/type-selected.png') center no-repeat;
+    position: absolute;
+    right: 4px;
+    bottom: 4px;
 }

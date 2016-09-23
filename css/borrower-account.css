@@ -240,3 +240,22 @@
     color: #0091db;
     border-color: #edf9ff;
 }
+.borrower-repayment-authority {
+    width: 163px;
+    height: 44px;
+    line-height: 44px;
+    text-align: center;
+    border: 1px solid #0091db;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    color: #0091db;
+    font-size: 14px;
+    background-color: #fff;
+    margin: 40px 300px;
+    cursor: pointer;
+}
+.borrower-repayment-authority:hover {
+    background-color: #0091db;
+    color: #fff;
+}
