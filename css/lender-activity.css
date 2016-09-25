@@ -17,14 +17,12 @@
     margin-top: 30px;
     border: 1px solid #0091db;
     width: 1078px;
-    height: 733px;
     font-family: Microsoft YaHei;
 }
 .classify-container {
     background-color: #f7fafc;
     font-size: 16px;
     width: 214px;
-    height: 733px;
     border-right: 1px solid #0091db;
 }
 .classify-title,
@@ -77,12 +75,10 @@
 }
 .show-detail-container {
     width: 863px;
-    height: 733px;
 }
 .detail-panel {
     padding: 0 40px 0 50px;
     width: 773px;
-    height: 733px;
     display: none;
 }
 .detail-panel.active {

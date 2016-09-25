@@ -17,15 +17,12 @@
     margin-top: 30px;
     border: 1px solid #0091db;
     width: 1078px;
-    height: 733px;
     font-family: Microsoft YaHei;
 }
 .classify-container {
     background-color: #f7fafc;
     font-size: 16px;
     width: 214px;
-    height: 733px;
-    border-right: 1px solid #0091db;
 }
 .classify-title,
 .classify-item{
@@ -61,6 +58,7 @@
     border-bottom: 1px solid #0091db;
     background-color: #fff;
     width: 215px;
+    position: relative;
 }
 .panel-title-box {
     padding-bottom: 25px;
@@ -101,12 +99,12 @@
 
 .show-detail-container {
     width: 863px;
-    height: 733px;
+    border-left: 1px solid #0091db;
+
 }
 .detail-panel {
-    padding: 0 40px 0 50px;
+    padding: 0 40px 20px 50px;
     width: 773px;
-    height: 733px;
     display: none;
 }
 .detail-panel.active {
