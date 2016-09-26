@@ -23,6 +23,8 @@
     background-color: #f7fafc;
     font-size: 16px;
     width: 214px;
+    min-height: 500px;
+    border-right: 1px solid #0091db;
 
 }
 .classify-title,
@@ -65,10 +67,10 @@
 /*面板account*/
 .show-detail-container {
     width: 863px;
-    border-left: 1px solid #0091db;
+    min-height: 500px;
 }
 .detail-panel {
-    padding: 0 40px 20px 50px;
+    padding: 0 40px 0 50px;
     width: 773px;
     display: none;
 }

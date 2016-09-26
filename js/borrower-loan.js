@@ -24,6 +24,8 @@ var loanEnd={
     }
 };
 $(function () {
+    $('.classify-container').css('height',$('.show-detail-container').css('height'));
+
     $.each($('.loan-detail-show'), function (index,item) {
         if(index%2==0){
             $(item).css('backgroundColor','#fff');

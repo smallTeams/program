@@ -2,7 +2,9 @@
  * Created by wxq on 2016/9/16.
  */
 $(function () {
-$('.coupon-box').on('click','.coupon-classify-item', function () {
+    $('.classify-container').css('height',$('.show-detail-container').css('height'));
+
+    $('.coupon-box').on('click','.coupon-classify-item', function () {
     $('.coupon-classify-item').removeClass('active');
     $('.coupon-classify-item img').attr('src','../image/coupon-icon.png');
     $(this).addClass('active');

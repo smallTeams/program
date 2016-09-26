@@ -23,6 +23,8 @@
     background-color: #f7fafc;
     font-size: 16px;
     width: 214px;
+    height: 650px;
+    border-right: 1px solid #0091db;
 }
 .classify-title,
 .classify-item{
@@ -58,7 +60,6 @@
     border-bottom: 1px solid #0091db;
     background-color: #fff;
     width: 215px;
-    position: relative;
 }
 .panel-title-box {
     height: 65px;
@@ -76,11 +77,10 @@
 }
 .show-detail-container {
     width: 863px;
-    border-left: 1px solid #0091db;
-
+    min-height: 650px;
 }
 .detail-panel {
-    padding: 0 40px 20px 50px;
+    padding: 0 40px 40px 50px;
     width: 773px;
     display: none;
 }
