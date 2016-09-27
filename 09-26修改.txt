@@ -1,0 +1,9 @@
+borrower-* .css
+lender-*  .css
+
+
+borrower-*.js
+lender-*.js
+
+所有borrower和lender的css文件和js文件更换    JS后台如果有修改请把每个里边的
+$('.classify-container').css('height',$('.show-detail-container').css('height'));  加上
