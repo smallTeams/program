@@ -115,6 +115,7 @@
 .md-6 {
     display: inline-block;
     float: left;;
+    white-space:nowrap; overflow:hidden; text-overflow:ellipsis;
 }
 .md-2 {
     width: 16%;
