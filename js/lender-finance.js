@@ -26,7 +26,6 @@
         }
     };
 $(function () {
-    $('.classify-container').css('height',$('.show-detail-container').css('height'));
 
     $('.finance-detial-choose').on('click','.detail-choose-item', function () {
         $('.detail-choose-item').removeClass('active');

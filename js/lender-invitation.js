@@ -24,7 +24,6 @@ var invitationEnd={
     }
 };
 $(function () {
-    $('.classify-container').css('height',$('.show-detail-container').css('height'));
     $('.invitation-record-choose').on('click','.invitation-record-choose-item', function () {
         $('.invitation-record-choose-item').removeClass('active');
         $(this).addClass('active');

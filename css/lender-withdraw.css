@@ -24,7 +24,6 @@
     font-size: 16px;
     width: 214px;
     height: 650px;
-    border-right: 1px solid #0091db;
 }
 .classify-title,
 .classify-item{
@@ -60,6 +59,7 @@
     border-bottom: 1px solid #0091db;
     background-color: #fff;
     width: 215px;
+    position: relative;
 }
 .panel-title-box {
     padding-bottom: 25px;
@@ -77,6 +77,8 @@
 .show-detail-container {
     width: 863px;
     min-height: 650px;
+    border-left: 1px solid #0091db;
+
 }
 .detail-panel {
     padding: 0 40px 0 50px;

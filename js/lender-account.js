@@ -3,7 +3,6 @@
  */
 
 $(function () {
-    $('.classify-container').css('height',$('.show-detail-container').css('height'));
     $('.selectpicker').selectpicker({
         style: 'btn-info',
     });
