@@ -214,7 +214,10 @@
     height: 38px;
     line-height: 38px;
     text-align: center;
-    white-space: nowrap;
+   
+}
+.account-detail-show-box .md-3{
+     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
 }
