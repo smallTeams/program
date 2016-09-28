@@ -103,19 +103,18 @@
 }
 .information-user-name ,
 .information-user-ID {
-    display: inline-block;
     margin-left: 10px;
     font-size: 16px;
+    padding-top: 12px;
 }
 .information-user-name-input,
 .information-user-ID-input {
-    display: inline-block;
     padding-left: 10px;
     width: 200px;
-    height: 41px;
+    height: 29px;
+    padding-top: 12px;
 }
 .information-user-search {
-    display: inline-block;
     width: 110px;
     height: 41px;
     line-height: 41px;
