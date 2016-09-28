@@ -23,8 +23,7 @@
     background-color: #f7fafc;
     font-size: 16px;
     width: 214px;
-    height: 500px;
-    border-right: 1px solid #0091db;
+
 }
 .classify-title,
 .classify-item{
@@ -55,6 +54,7 @@
     text-decoration: none;
 }
 .classify-item.active {
+    position: relative;
     color: #000;
     border-top: 1px solid #0091db;
     border-bottom: 1px solid #0091db;
@@ -101,6 +101,7 @@
 .show-detail-container {
     width: 863px;
     min-height: 500px;
+    border-left: 1px solid #0091db;
 }
 .detail-panel {
     padding: 0 40px 50px 50px;

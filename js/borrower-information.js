@@ -1,5 +1,4 @@
 $(function () {
-    $('.classify-container').css('height',$('.show-detail-container').css('height'));
 
     $('.change-password').on('click', function () {
         layer.open({

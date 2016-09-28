@@ -5,12 +5,12 @@ laydate.skin('yalan');
 var loanStart={
     elem: '#loan-start',
     format: 'YYYY/MM/DD hh:mm:ss',
-    max: '2099-06-16 23:59:59', //×î´óÈÕÆÚ
+    max: '2099-06-16 23:59:59', //ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
     istime: true,
     istoday: false,
     choose: function(datas){
-        loanEnd.min = datas; //¿ªÊ¼ÈÕÑ¡ºÃºó£¬ÖØÖÃ½áÊøÈÕµÄ×îĞ¡ÈÕÆÚ
-        loanEnd.start = datas //½«½áÊøÈÕµÄ³õÊ¼ÖµÉè¶¨Îª¿ªÊ¼ÈÕ
+        loanEnd.min = datas; //ï¿½ï¿½Ê¼ï¿½ï¿½Ñ¡ï¿½Ãºï¿½ï¿½ï¿½ï¿½Ã½ï¿½ï¿½ï¿½ï¿½Õµï¿½ï¿½ï¿½Ğ¡ï¿½ï¿½ï¿½ï¿½
+        loanEnd.start = datas //ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ÕµÄ³ï¿½Ê¼Öµï¿½è¶¨Îªï¿½ï¿½Ê¼ï¿½ï¿½
     }
 };
 var loanEnd={
@@ -20,11 +20,11 @@ var loanEnd={
     istime: true,
     istoday: false,
     choose: function(datas){
-        loanStart.max = datas; //½áÊøÈÕÑ¡ºÃºó£¬ÖØÖÃ¿ªÊ¼ÈÕµÄ×î´óÈÕÆÚ
+        loanStart.max = datas; //ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ñ¡ï¿½Ãºï¿½ï¿½ï¿½ï¿½Ã¿ï¿½Ê¼ï¿½Õµï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
     }
 };
 $(function () {
-    $('.classify-container').css('height',$('.show-detail-container').css('height'));
+
 
     $.each($('.loan-detail-show'), function (index,item) {
         if(index%2==0){

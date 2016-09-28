@@ -1,5 +1,4 @@
 $(function () {
-    $('.classify-container').css('height',$('.show-detail-container').css('height'));
 
     $('.go-withdraw').on('click', function () {
         layer.confirm('是否授权？', {

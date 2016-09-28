@@ -23,8 +23,6 @@
     background-color: #f7fafc;
     font-size: 16px;
     width: 214px;
-    min-height: 500px;
-    border-right: 1px solid #0091db;
 }
 .classify-title,
 .classify-item{
@@ -55,6 +53,7 @@
     font-size:16px;
 }
 .classify-item.active {
+    position: relative;
     color: #000;
     border-top: 1px solid #0091db;
     border-bottom: 1px solid #0091db;
@@ -75,6 +74,7 @@
 
 }
 .show-detail-container {
+    border-left: 1px solid #0091db;
     width: 863px;
     min-height: 500px;
 }

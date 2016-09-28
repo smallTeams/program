@@ -23,8 +23,7 @@
     background-color: #f7fafc;
     font-size: 16px;
     width: 214px;
-    height: 500px;
-    border-right: 1px solid #0091db;
+
 }
 .classify-title,
 .classify-item{
@@ -55,6 +54,7 @@
     font-size: 16px;
 }
 .classify-item.active {
+    position: relative;
     color: #000;
     border-top: 1px solid #0091db;
     border-bottom: 1px solid #0091db;
@@ -102,6 +102,7 @@
     margin-left: 100px;
 }
 .show-detail-container {
+    border-left: 1px solid #0091db;
     width: 863px;
     min-height: 500px;
 }
@@ -133,6 +134,9 @@
     line-height: 48px;
     color: #0091db;
     font-size: 16px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 .repayment-detail-show-item {
     display: inline-block;
@@ -143,6 +147,9 @@
     color: #0091db;
     font-size: 14px;
     color: #666;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 .pagination .repayment-pagination-item>a {
     margin-right: 9px;
