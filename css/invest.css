@@ -530,3 +530,23 @@
     background: url(../image/icon_a.png) no-repeat;
     background-position: -180.3px -31px;
 }
+
+
+/*下边的css为新增*/
+.x-item{
+    width:500px;
+}
+.x-item h4{
+    font-size: 14px;
+    line-height: 36px;
+}
+.x-key{
+    width: 120px;
+    letter-spacing: 2px;
+}
+.x-value{
+    width: 300px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space:nowrap;
+}
